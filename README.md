@@ -311,7 +311,9 @@ The file contains the list the variants-of-concern for five Sars-CoV-2 strains,
 * Sputnik V alleged unmodified YP_009724390.1
 * AZD1222 alleged unmodified YP_009724390.1
 
-<img src="https://static01.nyt.com/newsgraphics/2020/04/02/virus-genome/assets/images/coronavirus-cutaway-600.png" width="20%"/>
+<div style="display: flex; justify-content: center;">
+	<img src="https://static01.nyt.com/newsgraphics/2020/04/02/virus-genome/assets/images/coronavirus-cutaway-600.png" width="20%"/>
+</div>
 
 Different strains will contain benign variants.
 Typically, full sequences are used for alignment. 
@@ -366,7 +368,9 @@ Other files that are not listed contain intermediate data.
 Location: [Switzerland, Canton Vaud](https://goo.gl/maps/Xv1bY6Tgn4a5ccwN9)
 
 <!-- ![](./images/location.png) -->
-<img src="./images/location.png" width="50"/>
+<div style="display: flex; justify-content: center;">
+	<img src="./images/location.png" width="50%"/>
+</div>
 
 Created for open-source science by: [https://lawlessgenomics.com](https://lawlessgenomics.com)
 
