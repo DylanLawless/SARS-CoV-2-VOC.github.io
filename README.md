@@ -327,16 +327,16 @@ Other files that are not listed contain intermediate data.
 ![](https://static01.nyt.com/newsgraphics/2020/04/02/virus-genome/assets/images/ribosome-600.png)
 
 ## About
+Location: [Switzerland, Canton Vaud](https://goo.gl/maps/Xv1bY6Tgn4a5ccwN9)
+
+![](./images/location.png)
+
 Created for open-source science by: [https://lawlessgenomics.com](https://lawlessgenomics.com)
 
 [Contact - Resume - CV](https://dylan-lawless.github.io)
 
 Host-pathogen genomic scientist
 
-PhD (Medicine in Genetics and Immunology), MSc (Immunology)
+PhD (Medicine in Genetics and Immunology), MSc (Immunology), BSc (Microbiology)
 
-Location: [Switzerland, Canton Vaud](https://goo.gl/maps/Xv1bY6Tgn4a5ccwN9)
-
-![](./images/location.png)
-
-The original repository can be found at [github.com/DylanLawless](https://github.com/DylanLawless/variants_of_concern_to_vaccine_SARS-CoV2).
+The original repository can be found at [github.com/DylanLawless](https://github.com/DylanLawless/SARS-CoV-2-VOC.github.io).
