@@ -1,4 +1,5 @@
 # Notes
+Site redeployed under lawlessgenomics.com as a project using custom domain name. 
 
 * Derek Lowe's article on lipid delivery systems:
 [RNA Vaccines And Their Lipids](https://blogs.sciencemag.org/pipeline/archives/2021/01/11/rna-vaccines-and-their-lipids)
