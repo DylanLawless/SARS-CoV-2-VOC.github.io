@@ -77,7 +77,7 @@ Fasta sequences are included for:
 
 ## Naming SARS-CoV-2 variants
 According to the [WHO](https://www.who.int/en/activities/tracking-SARS-CoV-2-variants/),
-> the established nomenclature systems for naming and tracking SARS-CoV-2 genetic lineages by [GISAID](https://www.gisaid.org), [Nextstrain](https://nextstrain.org) and [Pango](https://cov-lineages.org) are currently and will remain in use by scientists and in scientific research. 
+the established nomenclature systems for naming and tracking SARS-CoV-2 genetic lineages by [GISAID](https://www.gisaid.org), [Nextstrain](https://nextstrain.org) and [Pango](https://cov-lineages.org) are currently and will remain in use by scientists and in scientific research. 
 These variant codes are essential for efficient lineage tracking. 
 The [WHO](https://www.who.int/en/activities/tracking-SARS-CoV-2-variants/) labels (e.g. Alpha, Beta, Gamma), are practical for non-scientific audiences. 
 The labels from [GISAID](https://www.gisaid.org), [Nextstrain](https://nextstrain.org) and [Pango](https://cov-lineages.org) are useful for technical discussion (e.g. B.1.1.7, GRY, 20I/S:501Y.V1). 
