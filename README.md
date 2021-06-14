@@ -132,8 +132,8 @@ The two reference sequences that are used by vaccine developers are;
 
 Both reference sequences are provided in files:
 
-[reference\_sequence\_MN908947.3.md](sarscov2_reference_sequence/reference_sequence_MN908947.3.md)
-[reference\_sequence\_NC\_045512.2.21563-25384.md](sarscov2_reference_sequence/reference_sequence_NC_045512.2.21563-25384.md)
+[reference_sequence_MN908947.3.md](sarscov2_reference_sequence/reference_sequence_MN908947.3.md)
+[reference_sequence_NC_045512.2.21563-25384.md](sarscov2_reference_sequence/reference_sequence_NC_045512.2.21563-25384.md)
 
 ## Vaccine sequence reproduction
 The sequences for vaccines have been reproduced by careful reconstruction based on 
@@ -159,8 +159,8 @@ The nucleotide sequences were then translated into amino acid coding sequences
 using <https://web.expasy.org/translate/>,
 as shown in files:
 
-[sarscov2\_vaccine\_sequence\_translated\_mRNA-1273.md](sarscov2\_vaccine\_sequences\_translated/sarscov2\_vaccine\_sequence\_translated\_mRNA-1273.md)
-[sarscov2\_vaccine\_sequence\_translated\_BNT-162b2.md](sarscov2\_vaccine\_sequences\_translated/sarscov2\_vaccine\_sequence\_translated\_BNT-162b2.md)
+[sarscov2_vaccine_sequence_translated_mRNA-1273.md](sarscov2_vaccine_sequences_translated/sarscov2_vaccine_sequence_translated_mRNA-1273.md)
+[sarscov2_vaccine_sequence_translated_BNT-162b2.md](sarscov2_vaccine_sequences_translated/sarscov2_vaccine_sequence_translated_BNT-162b2.md)
 
 ## Vaccine sequences summarised
 [HGVS-style notation](https://varnomen.hgvs.org/recommendations/protein/variant/delins/) is used for standardized reporting.
@@ -277,8 +277,8 @@ This dataset includes:
 
 The reformatted tables are presented in files:
 
-[variants\_of\_concern.xlsx](variants\_of\_concern.xlsx)
-[variants\_of\_concern.csv](variants\_of\_concern.csv)
+[variants_of_concern.xlsx](variants_of_concern.xlsx)
+[variants_of_concern.csv](variants_of_concern.csv)
 
 There are currently no VOHC. 
 VOC (but not VOI) were presented in the final visualisation.
@@ -291,7 +291,7 @@ This data was then added to the multiple sequence alignment file to allow for
 aligned annotations,
 as shown in file:
 
-[variants\_of\_concern\_to\_vaccine.fa](variants\_of\_concern\_to\_vaccine.fa)
+[variants_of_concern_to_vaccine.fa](variants_of_concern_to_vaccine.fa)
 
 The file contains the list the variants-of-concern for five Sars-CoV-2 strains,
 2 reference sequence, and
@@ -321,11 +321,11 @@ Instead, only the variants-of-concern are annotated for the strain sequences.
 The final illustration was made using <https://www.snapgene.com> software.
 The snapgene-software formatted output can be loaded with the file:
 
-[variants\_of\_concern\_to\_vaccine.praln](variants\_of\_concern\_to\_vaccine.praln)
+[variants_of_concern_to_vaccine.praln](variants_of_concern_to_vaccine.praln)
 
 The final PDF version is shown in file:
 [Open PDF visualisation](./variants_of_concern_to_vaccine.pdf)
-[variants\_of\_concern\_to\_vaccine.pdf](./variants_of_concern_to_vaccine.pdf)
+[variants_of_concern_to_vaccine.pdf](./variants_of_concern_to_vaccine.pdf)
 
 ## Main files
 
@@ -334,22 +334,22 @@ Other files that are not listed contain intermediate data.
 
 * [README.md](https://github.com/DylanLawless/variants_of_concern_to_vaccine_SARS*CoV2#readme)
 
-* [reference\_sequence\_NC\_045512.2.21563-25384.md](sarscov2_reference_sequence/reference_sequence_NC_045512.2.21563-25384.md)
-* [reference\_sequence\_MN908947.3.md](sarscov2_reference_sequence/reference_sequence_MN908947.3.md)
+* [reference_sequence_NC_045512.2.21563-25384.md](sarscov2_reference_sequence/reference_sequence_NC_045512.2.21563-25384.md)
+* [reference_sequence_MN908947.3.md](sarscov2_reference_sequence/reference_sequence_MN908947.3.md)
 
-* [sarscov2 vaccine sequence translated mRNA-1273.md](sarscov2\_vaccine\_sequences\_translated/sarscov2\_vaccine\_sequence\_translated\_mRNA-1273.md)
-* [sarscov2 vaccine sequence translated BNT-162b2.md](sarscov2\_vaccine\_sequences\_translated/sarscov2\_vaccine\_sequence\_translated\_BNT-162b2.md)
-* [sarscov2 vaccine sequence translated NVX-CoV2373.md](sarscov2\_vaccine\_sequences\_translated/sarscov2\_vaccine\_sequence\_translated\_NVX-CoV2373.md)
-* [sarscov2 vaccine sequence translated Ad26.COV2-S.md](sarscov2\_vaccine\_sequences\_translated/sarscov2\_vaccine\_sequence\_translated\_Ad26.COV2-S.md)
-* [sarscov2 vaccine sequence translated AZD1222.md](sarscov2\_vaccine\_sequences\_translated/sarscov2\_vaccine\_sequence\_translated\_AZD1222.md)
-* [sarscov2 vaccine sequence translated NVX-CoV2373.md](sarscov2\_vaccine\_sequences\_translated/sarscov2\_vaccine\_sequence\_translated\_NVX-CoV2373.md)
-* [sarscov2 vaccine sequence translated Sputnik-V.md](sarscov2\_vaccine\_sequences\_translated/sarscov2\_vaccine\_sequence\_translated\_Sputnik-V.md)
+* [sarscov2 vaccine sequence translated mRNA-1273.md](sarscov2_vaccine_sequences_translated/sarscov2_vaccine_sequence_translated_mRNA-1273.md)
+* [sarscov2 vaccine sequence translated BNT-162b2.md](sarscov2_vaccine_sequences_translated/sarscov2_vaccine_sequence_translated_BNT-162b2.md)
+* [sarscov2 vaccine sequence translated NVX-CoV2373.md](sarscov2_vaccine_sequences_translated/sarscov2_vaccine_sequence_translated_NVX-CoV2373.md)
+* [sarscov2 vaccine sequence translated Ad26.COV2-S.md](sarscov2_vaccine_sequences_translated/sarscov2_vaccine_sequence_translated_Ad26.COV2-S.md)
+* [sarscov2 vaccine sequence translated AZD1222.md](sarscov2_vaccine_sequences_translated/sarscov2_vaccine_sequence_translated_AZD1222.md)
+* [sarscov2 vaccine sequence translated NVX-CoV2373.md](sarscov2_vaccine_sequences_translated/sarscov2_vaccine_sequence_translated_NVX-CoV2373.md)
+* [sarscov2 vaccine sequence translated Sputnik-V.md](sarscov2_vaccine_sequences_translated/sarscov2_vaccine_sequence_translated_Sputnik-V.md)
 
-* [variants\_of\_concern.xlsx](variants\_of\_concern.xlsx)
-* [variants\_of\_concern.csv](variants\_of\_concern.csv)
-* [variants\_of\_concern\_to\_vaccine.fa](variants\_of\_concern\_to\_vaccine.fa)
-* [variants\_of\_concern\_to\_vaccine.praln](variants\_of\_concern\_to\_vaccine.praln)
-* [variants\_of\_concern\_to\_vaccine.pdf](variants\_of\_concern\_to\_vaccine.pdf)
+* [variants_of_concern.xlsx](variants_of_concern.xlsx)
+* [variants_of_concern.csv](variants_of_concern.csv)
+* [variants_of_concern_to_vaccine.fa](variants_of_concern_to_vaccine.fa)
+* [variants_of_concern_to_vaccine.praln](variants_of_concern_to_vaccine.praln)
+* [variants_of_concern_to_vaccine.pdf](variants_of_concern_to_vaccine.pdf)
 
 * [Protein structure, original structure file](pdb/6zox.pdb)
 * [Protein structure, VMD visualisation state 6zox_voc_20210604_stage.vmd](pdb/6zox_voc_20210604_stage.vmd)
