@@ -368,12 +368,11 @@ Location: [Switzerland, Canton Vaud](https://goo.gl/maps/Xv1bY6Tgn4a5ccwN9)
 <!-- ![](./images/location.png) -->
 <img src="./images/location.png" width="50%"/>
 
-Created for open-source science by: [https://lawlessgenomics.com](https://lawlessgenomics.com)
+Created for open-science by: [https://lawlessgenomics.com](https://lawlessgenomics.com)
 
 [Contact - Resume - CV](https://dylan-lawless.github.io)
 
-Host-pathogen genomic scientist
-
-PhD (Medicine in Genetics and Immunology), MSc (Immunology), BSc (Microbiology)
+Host-pathogen genomic scientist. PhD (Medicine in Genetics and Immunology), MSc (Immunology), BSc (Microbiology)
 
 Contribute via the original repository at [github.com/DylanLawless](https://github.com/DylanLawless/SARS-CoV-2-VOC.github.io).
+With minimalism and privacy in mind, this site is built to be light and fast as well as containing [no ads, trackers, cookies, &c](https://themarkup.org/blacklight?url=sarscov2variants.com).
