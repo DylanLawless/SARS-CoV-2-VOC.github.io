@@ -104,7 +104,8 @@ However, their guidelines are particularly reliable for complex genetic combinat
 This style has been used for more reliable standardized reproduction of vaccine genetics derived from primary sources.
 
 ## Vaccine genetic design
-In a hypothetical example, a new viral mutation could arise that poses a risk due to resistance against _some_ vaccines. 
+In a [hypothetical example](hypothetical_example.md), 
+a new viral mutation could arise that poses a risk due to resistance against _some_ vaccines. 
 Most vaccines are currently based on expression of full-length SARS-CoV2 S glycoprotein.
 Currently, the genetic design component of vaccines use one of three designs types (1), (2) or (2+3): 
 

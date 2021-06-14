@@ -1,25 +1,4 @@
 # Notes
-## Hypothetical example
-In a hypothetical example, a new viral mutation could arise that poses a risk due to resistance against _some_ vaccines. 
-Most vaccines are currently based on expression of (or purified, pre-expressed) full-lenght SARS-CoV2 Spike glycoprotein.
-Currently, the genetic design component of vaccines are based on three designs types (1), (2) or (2+3): 
-
-1. Unmodified protein
-2. Stabilization modified
-3. Furin cleavage modified
-
-There are some slight differences between some of these genetic modifications.
-Therefore, we would like to efficienctly and accurately map individual variants-of-concern to each vaccine coding sequence and pre-emptively identify those risk in the event of resistence. 
-
-Two vaccines with modifications in this region are:
-
-* Ad26.COV2-S: p.[Arg682Ser;p.Arg685Gln] - furin cleavage x2 site (SRAG)
-* NVX-CoV237: p.[Arg682_Arg683delinsGlnGln;Arg685Gln] - furin cleavage x3 sites (GGAG)
-
-A viral strain with a **hypothetical** variant-of-concern p.Arg682Ser would be easily matched with the at-risk vaccine. 
-Conversely, vaccine strain codes (like Alpha or B.1.1.7) require additional alignment steps to reach the same conclusion. 
-Reporting the variant-of-concern relative to the S glycoprotein coding sequence is therefore pertinent for completing our task efficiently.
-
 ## Website deployment
 The site redeployed under lawlessgenomics.com as a project using a second custom domain name. 
 The site is built using the git repo
