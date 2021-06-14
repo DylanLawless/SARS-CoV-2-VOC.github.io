@@ -75,94 +75,6 @@ Fasta sequences are included for:
 * Sputnik V alleged unmodified YP_009724390.1
 * AZD1222 alleged unmodified YP_009724390.1
 
-## Naming SARS-CoV-2 variants
-According to the [WHO](https://www.who.int/en/activities/tracking-SARS-CoV-2-variants/),
-the established nomenclature systems for naming and tracking SARS-CoV-2 genetic lineages by [GISAID](https://www.gisaid.org), [Nextstrain](https://nextstrain.org) and [Pango](https://cov-lineages.org) are currently and will remain in use by scientists and in scientific research. 
-These variant codes are essential for efficient lineage tracking. 
-The [WHO](https://www.who.int/en/activities/tracking-SARS-CoV-2-variants/) labels (e.g. Alpha, Beta, Gamma), are practical for non-scientific audiences. 
-The labels from [GISAID](https://www.gisaid.org), [Nextstrain](https://nextstrain.org) and [Pango](https://cov-lineages.org) are useful for technical discussion (e.g. B.1.1.7, GRY, 20I/S:501Y.V1). 
-However, when considering the task of matching vaccine sequence to viral sequence, labelling individual variants is ideal.
-
-In spite of best efforts to control infection, vaccine resistance may arise due to individual or multiple variants-of-concern. 
-Quickly identifying individual variant effect is imperative. 
-Strain labels are defined according the relative phylogenetic position and therefore contain additional information about unrelated "benign" variants, that is not pertinent to our task.
-Tracking variants-of-concern based strain labels alone does not provide sufficient defence since the individual variant-of-concern may spontaneously arise in another genetically distant strain. 
-
-For reproducing vaccine sequences and SARS-CoV-2 variants-of-concern,
-we use coordinate positions relative to the reference sequence
-for S glycoprotein protein
-[QHD43416.1](https://www.ncbi.nlm.nih.gov/protein/QHD43416.1)
-from complete genome [MN908947.3](https://www.ncbi.nlm.nih.gov/nuccore/mn908947.3) 
-(date: 18-MAR-2020).
-
-Vaccine developers generally report their genetic modifications with positions relative to their original reference sequence (usually also matching our chosen reference).
-Some vaccine developers do not report any reference sequence. 
-In such cases we used the same QHD43416.1 (MN908947.3) reference to represent their allegedly unmodified sequence.
-
-[HGVS-recommended nomenclature](https://varnomen.hgvs.org/recommendations/protein) for protein variation is designed for human genome variants rather than for viral genetics. 
-However, their guidelines are particularly reliable for complex genetic combinations, providing unambiguous clarity.
-This style has been used for more reliable standardized reproduction of vaccine genetics derived from primary sources.
-
-## Vaccine genetic design
-In a [hypothetical example](hypothetical_example.md), 
-a new viral mutation could arise that poses a risk due to resistance against _some_ vaccines. 
-Most vaccines are currently based on expression of full-length SARS-CoV2 S glycoprotein.
-Currently, the genetic design component of vaccines use one of three designs types (1), (2) or (2+3): 
-
-1. Unmodified protein
-2. Stabilization modified
-3. Furin cleavage modified
-
-There are also slight genetic differences between vaccines that use the same genetic modification strategies.
-Therefore, we would like to efficiently and accurately map individual variants-of-concern to each vaccine coding sequence and pre-emptively identify those at risk in the event of resistance. 
-
-## Reference genome sequence
-The two reference sequences that are used by vaccine developers are;
-
-* Complete genome DNA and translated coding sequences:
-	- [MN908947.3](https://www.ncbi.nlm.nih.gov/nuccore/mn908947.3)
-	- Protein ID for spike glycoprotein [QHD43416.1](https://www.ncbi.nlm.nih.gov/protein/QHD43416.1)
-	- Date: 18-MAR-2020
-	- This the same translated protein sequence as that is referred to based on genomic coordinates [coded_by MN908947.3:21563..25384](https://www.ncbi.nlm.nih.gov/protein/QHD43416.1)
-
-* Complete genome DNA and translated coding sequences:
-	- [NC\_045512.2](https://www.ncbi.nlm.nih.gov/nuccore/NC_045512.2), 
-	- Protein ID for spike glycoprotein [YP\_009724390.1](https://www.ncbi.nlm.nih.gov/protein/YP_009724390.1).
-	- Date: 18-JUL-2020 
-	- This the same translated protein sequence as that is referred to based on genomic coordinates [NC_045512.2:21563-25384 translated GU280_gp02](https://www.ncbi.nlm.nih.gov/nuccore/NC_045512)
-
-Both reference sequences are provided in files:
-
-[reference_sequence_MN908947.3.md](sarscov2_reference_sequence/reference_sequence_MN908947.3.md)
-[reference_sequence_NC_045512.2.21563-25384.md](sarscov2_reference_sequence/reference_sequence_NC_045512.2.21563-25384.md)
-
-## Vaccine sequence reproduction
-The sequences for vaccines have been reproduced by careful reconstruction based on 
-
-1. The authors' reported reference sequence and 
-2. The description of the genetic modifications used during vaccine development. 
-
-The primary sources are provided in each case, along with a detailed description of the genetic variants provided by authors.
-
-**For visual simplicity, an X symbol was used to illustrate amino acid deletions**.
-All other amino acid changes use their correct symbol.
-
-For vaccines BNT-162b2 and mRNA-1273, the assemblies have also been sourced from [NAalytics](https://github.com/NAalytics/Assemblies-of-putative-SARS-CoV2-spike-encoding-mRNA-sequences-for-vaccines-BNT-162b2-and-mRNA-1273).
-This data matches the vaccine sequences that have been reproduced here based on primary literature.
-Briefly, 
-their experimental sequence information from the initial 
-Moderna ([Corbett Nature 2020 Oct](https://pubmed.ncbi.nlm.nih.gov/32756549/))
-and Pfizer/BioNTech ([Polack NEJM 2020 Dec](https://pubmed.ncbi.nlm.nih.gov/33301246/))
-COVID-19 vaccines, allowed them to produce a working assembly of the former 
-and a confirmation of previously reported sequence information for the latter RNA.
-Their data was sourced and formatted to select the coding sequences.
-The nucleotide sequences were then translated into amino acid coding sequences
-using <https://web.expasy.org/translate/>,
-as shown in files:
-
-[sarscov2_vaccine_sequence_translated_mRNA-1273.md](sarscov2_vaccine_sequences_translated/sarscov2_vaccine_sequence_translated_mRNA-1273.md)
-[sarscov2_vaccine_sequence_translated_BNT-162b2.md](sarscov2_vaccine_sequences_translated/sarscov2_vaccine_sequence_translated_BNT-162b2.md)
-
 ## Vaccine sequences summarised
 [HGVS-style notation](https://varnomen.hgvs.org/recommendations/protein/variant/delins/) is used for standardized reporting.
 
@@ -258,6 +170,95 @@ a simple list would even be better: p.R682Q, p.R683Q, p.R685Q, p.K986P, and p.V9
 	- Expressing the unmodified S protein.
 	- No reference sequence found
 	- [Folegatti et al, Lancet July 2020](http://www.thelancet.com/retrieve/pii/S0140673620316044)
+
+
+## Naming SARS-CoV-2 variants
+According to the [WHO](https://www.who.int/en/activities/tracking-SARS-CoV-2-variants/),
+the established nomenclature systems for naming and tracking SARS-CoV-2 genetic lineages by [GISAID](https://www.gisaid.org), [Nextstrain](https://nextstrain.org) and [Pango](https://cov-lineages.org) are currently and will remain in use by scientists and in scientific research. 
+These variant codes are essential for efficient lineage tracking. 
+The [WHO](https://www.who.int/en/activities/tracking-SARS-CoV-2-variants/) labels (e.g. Alpha, Beta, Gamma), are practical for non-scientific audiences. 
+The labels from [GISAID](https://www.gisaid.org), [Nextstrain](https://nextstrain.org) and [Pango](https://cov-lineages.org) are useful for technical discussion (e.g. B.1.1.7, GRY, 20I/S:501Y.V1). 
+However, when considering the task of matching vaccine sequence to viral sequence, labelling individual variants is ideal.
+
+In spite of best efforts to control infection, vaccine resistance may arise due to individual or multiple variants-of-concern. 
+Quickly identifying individual variant effect is imperative. 
+Strain labels are defined according the relative phylogenetic position and therefore contain additional information about unrelated "benign" variants, that is not pertinent to our task.
+Tracking variants-of-concern based strain labels alone does not provide sufficient defence since the individual variant-of-concern may spontaneously arise in another genetically distant strain. 
+
+For reproducing vaccine sequences and SARS-CoV-2 variants-of-concern,
+we use coordinate positions relative to the reference sequence
+for S glycoprotein protein
+[QHD43416.1](https://www.ncbi.nlm.nih.gov/protein/QHD43416.1)
+from complete genome [MN908947.3](https://www.ncbi.nlm.nih.gov/nuccore/mn908947.3) 
+(date: 18-MAR-2020).
+
+Vaccine developers generally report their genetic modifications with positions relative to their original reference sequence (usually also matching our chosen reference).
+Some vaccine developers do not report any reference sequence. 
+In such cases we used the same QHD43416.1 (MN908947.3) reference to represent their allegedly unmodified sequence.
+
+[HGVS-recommended nomenclature](https://varnomen.hgvs.org/recommendations/protein) for protein variation is designed for human genome variants rather than for viral genetics. 
+However, their guidelines are particularly reliable for complex genetic combinations, providing unambiguous clarity.
+This style has been used for more reliable standardized reproduction of vaccine genetics derived from primary sources.
+
+## Vaccine genetic design
+In a [hypothetical example](hypothetical_example.md), 
+a new viral mutation could arise that poses a risk due to resistance against _some_ vaccines. 
+Most vaccines are currently based on expression of full-length SARS-CoV2 S glycoprotein.
+Currently, the genetic design component of vaccines use one of three designs types (1), (2) or (2+3): 
+
+1. Unmodified protein
+2. Stabilization modified
+3. Furin cleavage modified
+
+There are also slight genetic differences between vaccines that use the same genetic modification strategies.
+Therefore, we would like to efficiently and accurately map individual variants-of-concern to each vaccine coding sequence and pre-emptively identify those at risk in the event of resistance. 
+
+## Reference genome sequence
+The two reference sequences that are used by vaccine developers are;
+
+* Complete genome DNA and translated coding sequences:
+	- [MN908947.3](https://www.ncbi.nlm.nih.gov/nuccore/mn908947.3)
+	- Protein ID for spike glycoprotein [QHD43416.1](https://www.ncbi.nlm.nih.gov/protein/QHD43416.1)
+	- Date: 18-MAR-2020
+	- This the same translated protein sequence as that is referred to based on genomic coordinates [coded_by MN908947.3:21563..25384](https://www.ncbi.nlm.nih.gov/protein/QHD43416.1)
+
+* Complete genome DNA and translated coding sequences:
+	- [NC\_045512.2](https://www.ncbi.nlm.nih.gov/nuccore/NC_045512.2), 
+	- Protein ID for spike glycoprotein [YP\_009724390.1](https://www.ncbi.nlm.nih.gov/protein/YP_009724390.1).
+	- Date: 18-JUL-2020 
+	- This the same translated protein sequence as that is referred to based on genomic coordinates [NC_045512.2:21563-25384 translated GU280_gp02](https://www.ncbi.nlm.nih.gov/nuccore/NC_045512)
+
+Both reference sequences are provided in files:
+
+[reference_sequence_MN908947.3.md](sarscov2_reference_sequence/reference_sequence_MN908947.3.md)
+[reference_sequence_NC_045512.2.21563-25384.md](sarscov2_reference_sequence/reference_sequence_NC_045512.2.21563-25384.md)
+
+## Vaccine sequence reproduction
+The sequences for vaccines have been reproduced by careful reconstruction based on 
+
+1. The authors' reported reference sequence and 
+2. The description of the genetic modifications used during vaccine development. 
+
+The primary sources are provided in each case, along with a detailed description of the genetic variants provided by authors.
+
+**For visual simplicity, an X symbol was used to illustrate amino acid deletions**.
+All other amino acid changes use their correct symbol.
+
+For vaccines BNT-162b2 and mRNA-1273, the assemblies have also been sourced from [NAalytics](https://github.com/NAalytics/Assemblies-of-putative-SARS-CoV2-spike-encoding-mRNA-sequences-for-vaccines-BNT-162b2-and-mRNA-1273).
+This data matches the vaccine sequences that have been reproduced here based on primary literature.
+Briefly, 
+their experimental sequence information from the initial 
+Moderna ([Corbett Nature 2020 Oct](https://pubmed.ncbi.nlm.nih.gov/32756549/))
+and Pfizer/BioNTech ([Polack NEJM 2020 Dec](https://pubmed.ncbi.nlm.nih.gov/33301246/))
+COVID-19 vaccines, allowed them to produce a working assembly of the former 
+and a confirmation of previously reported sequence information for the latter RNA.
+Their data was sourced and formatted to select the coding sequences.
+The nucleotide sequences were then translated into amino acid coding sequences
+using <https://web.expasy.org/translate/>,
+as shown in files:
+
+[sarscov2_vaccine_sequence_translated_mRNA-1273.md](sarscov2_vaccine_sequences_translated/sarscov2_vaccine_sequence_translated_mRNA-1273.md)
+[sarscov2_vaccine_sequence_translated_BNT-162b2.md](sarscov2_vaccine_sequences_translated/sarscov2_vaccine_sequence_translated_BNT-162b2.md)
 
 ## Vaccine multiple sequence alignment
 The amino acid sequences of the coding region from each of the vaccine sequences 
