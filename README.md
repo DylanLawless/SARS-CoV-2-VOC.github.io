@@ -376,3 +376,4 @@ Host-pathogen genomic scientist. PhD (Medicine in Genetics and Immunology), MSc 
 
 Contribute via the original repository at [github.com/DylanLawless](https://github.com/DylanLawless/SARS-CoV-2-VOC.github.io).
 With minimalism and privacy in mind, this site is built to be light and fast as well as containing [no ads, trackers, cookies, &c](https://themarkup.org/blacklight?url=sarscov2variants.com).
+<!-- https://www.paypal.com/donate?hosted_button_id=7K3CD4KDMKPBS -->
