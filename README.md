@@ -76,7 +76,7 @@ Fasta sequences are included for:
 * AZD1222 alleged unmodified YP_009724390.1
 
 ## Vaccine sequences summarised
-[HGVS-style notation](https://varnomen.hgvs.org/recommendations/protein/variant/delins/) is used for standardized reporting.
+<!--[HGVS-style notation](https://varnomen.hgvs.org/recommendations/protein/variant/delins/) is used for standardized reporting.-->
 
 * mRNA-1273
 	- Genetics: p.(Lys986_Val987delinsProPro)			- stabilizing x2 (PP)
