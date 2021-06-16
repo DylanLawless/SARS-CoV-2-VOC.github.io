@@ -4,7 +4,7 @@ This work has not been peer reviewed.
 
 [Open PDF visualisation - variants_of_concern_to_vaccine.pdf](./variants_of_concern_to_vaccine.pdf)
 
-## Aims and results
+## Aims and results overview
 * To produce standardized alignments of vaccine sequences.
 * Determine which are at risk to emerging variants.
 
@@ -14,7 +14,6 @@ From the data presented within:
 2. These were aligned to the SARS-CoV-2 reference amino acid sequences of spike (S) glycoprotein.
 3. Known variants-of-concern were then annotated and visualised.
 
-## Overview
 Variants-of-concern for five SARS-CoV-2 strains 
 ([CDC 4 Jun 2021](https://www.cdc.gov/coronavirus/2019-ncov/variants/variant-info.html?CDC_AA_refVal=https%3A%2F%2Fwww.cdc.gov%2Fcoronavirus%2F2019-ncov%2Fcases-updates%2Fvariant-surveillance%2Fvariant-info.html))
 are illustrated against the 
@@ -76,8 +75,7 @@ Fasta sequences are included for:
 * AZD1222 alleged unmodified YP_009724390.1
 
 ## How we source and anlyze our data
-### Vaccine list
-[Vaccine list](pages/Vaccine_list)
+### [Vaccine list](pages/Vaccine_list)
 
 ### Vaccine sequences summarised
 [Vaccine sequences summarised](pages/Vaccine_sequences_summarised.md)
