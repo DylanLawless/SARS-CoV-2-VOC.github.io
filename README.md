@@ -75,6 +75,13 @@ Fasta sequences are included for:
 * Sputnik V alleged unmodified YP_009724390.1
 * AZD1222 alleged unmodified YP_009724390.1
 
+## Vaccine list
+We are tracking vaccines on the
+[Vaccine_list under WHO EUL/PQ evaluation](vaccine_list/Status_of_COVID-19_Vaccines_within_WHO_EUL_PQ_evaluation_process.md)
+You can read about our data sources in 
+[vaccine_list.md](vaccine_list/vaccine_list.md).
+We have reproduced the vaccine coding sequences for each vaccine that has a _finalized_ status under the WHO Emergency Use Listing and prequalification (WHO EUL/PQ) process.
+
 ## Vaccine sequences summarised
 <!--[HGVS-style notation](https://varnomen.hgvs.org/recommendations/protein/variant/delins/) is used for standardized reporting.-->
 
@@ -239,6 +246,10 @@ The sequences for vaccines have been reproduced by careful reconstruction based 
 1. The authors' reported reference sequence and 
 2. The description of the genetic modifications used during vaccine development. 
 
+For each vaccine, a review of the primary literature was performed to find the exact coding sequence and reference sequence. 
+For those with no coding sequence provided (the majority), 
+the authors' description of genetic modification was used to reconstruct the vaccine coding sequence. 
+This sequence, along with the construction methods is provided in the fasta file matching the vaccine name.
 The primary sources are provided in each case, along with a detailed description of the genetic variants provided by authors.
 
 **For visual simplicity, an X symbol was used to illustrate amino acid deletions**.
