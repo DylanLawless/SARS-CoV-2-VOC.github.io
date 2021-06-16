@@ -75,10 +75,11 @@ Fasta sequences are included for:
 * Sputnik V alleged unmodified YP_009724390.1
 * AZD1222 alleged unmodified YP_009724390.1
 
-## Vaccine list
+## How we source and anlyze our data
+### Vaccine list
 [Vaccine list](pages/Vaccine_list)
 
-## Vaccine sequences summarised
+### Vaccine sequences summarised
 [Vaccine sequences summarised](pages/Vaccine_sequences_summarised.md)
 
 ## Vaccine details
