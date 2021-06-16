@@ -1,9 +1,7 @@
 theme: jekyll-theme-cayman
-
-plugins:
-  - jekyll-seo-tag
-google_analytics: UA-199638391-1
-
 title: SARS-CoV-2-variants
 description: [Open-source tracking for emerging SARS-CoV-2 variants that pose a risk based on COVID-19 vaccine genetics.]
+# plugins:
+#   - jekyll-seo-tag
+# google_analytics: UA-199638391-1
 
