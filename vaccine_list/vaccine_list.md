@@ -34,7 +34,7 @@ For those with no coding sequence provided (the majority),
 the authors' description of genetic modification was used to reconstruct the vaccine coding sequence. 
 This sequence, along with the construction methods is provided in the fasta file matching the vaccine name.
 
-## Status of COVID-19 Vaccines within WHO EUL/PQ evaluation process.md
+## Status of COVID-19 Vaccines within WHO EUL/PQ evaluation process
 
 |	No.	|	Manufacturer / WHO EUL holder 	|	Name of Vaccine 	|	NRA of Record 	|	Platform 	|	EOI accepted 	|	Pre- submission meeting held 	|	Dossier accepted for review	|	Status of assessment	|	Anticipated decision date	|
 |	---:	|	:---	|	:---	|	:---	|	:---	|	:---	|	:---	|	:---	|	:---	|	:---	|
