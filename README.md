@@ -80,6 +80,8 @@ We are tracking vaccines on the
 [Vaccine_list under WHO EUL/PQ evaluation](vaccine_list/Status_of_COVID-19_Vaccines_within_WHO_EUL_PQ_evaluation_process.md)
 You can read about our data sources in 
 [vaccine_list.md](vaccine_list/vaccine_list.md).
+
+![vaccine_list.md](vaccine_list/vaccine_list.md).
 We have reproduced the vaccine coding sequences for each vaccine that has a _finalized_ status under the WHO Emergency Use Listing and prequalification (WHO EUL/PQ) process.
 
 ## Vaccine sequences summarised
