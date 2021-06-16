@@ -1,3 +1,6 @@
+---
+Title: SARS-CoV-2 variants 
+---
 # Variants of concern aligned to SARS-CoV-2 vaccine coding sequences
 
 This work has not been peer reviewed.
