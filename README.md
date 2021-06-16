@@ -76,11 +76,17 @@ Fasta sequences are included for:
 
 ## How we source and anlyze our data
 
-| [Vaccine list](pages/Vaccine_list) |
-|------------------------------------|
+[ |Vaccine list|
+  |------------| ](pages/Vaccine_list)
 
 | [Vaccine sequences summarised](pages/Vaccine_sequences_summarised.md) |
 |-----------------------------------------------------------------------|
+
+| Vaccine sequences summarised |
+|------------------------------|
+
+| Vaccine sequences summarised |
+|-----------|
 
 ## Vaccine details
 [Vaccine details](pages/Vaccine_details.md)
