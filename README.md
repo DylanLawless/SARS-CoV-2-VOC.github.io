@@ -75,15 +75,9 @@ Fasta sequences are included for:
 * AZD1222 alleged unmodified YP_009724390.1
 
 ## How we source and anlyze our data
-[> ### Vaccine list
-This contains xyz](pages/Vaccine_list)
 
-| :zap:        Ignore at your own risk!   |
-|-----------------------------------------|
-
-| :zap: [Vaccine list](pages/Vaccine_list)|
-|-----------------------------------------|
-
+| :one:        | [Vaccine list](pages/Vaccine_list) |
+|--------------|:-----------------------------------|
 
 
 
