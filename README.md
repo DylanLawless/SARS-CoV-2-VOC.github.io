@@ -76,8 +76,8 @@ Fasta sequences are included for:
 
 ## How we source and anlyze our data
 
-| :one:        | [Vaccine list](pages/Vaccine_list) |
-|--------------|:-----------------------------------|
+ :one:	| [Vaccine list](pages/Vaccine_list) |
+		|:-----------------------------------|
 
 
 
