@@ -88,7 +88,7 @@ and others.
 The dataset compiled by WHO is used to extract 
 all vaccines in clinical development at:
 [COVID-19 vaccine tracker and landscape](https://www.who.int/publications/m/item/draft-landscape-of-covid-19-candidate-vaccines).
-To find the current status of clinical evaluation (Trial registries and public reports) for a vaccine, please refer to the WHO dataset by downloading the spreadsheet ("date" novel-covid-19-vaccine-tracker.xlsx.zip). 
+To find the current status of clinical evaluation (Trial registries and public reports) for a vaccine, please refer to the WHO dataset by downloading the spreadsheet from their website ("date" novel-covid-19-vaccine-tracker.xlsx.zip). 
 
 ### Vaccines with WHO EUL/PQ finalized reports
 The 
