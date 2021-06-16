@@ -11,7 +11,6 @@ In spite of best efforts to control infection, vaccine resistance may arise due 
 Quickly identifying individual variant effect is imperative. 
 Strain labels are defined according the relative phylogenetic position and therefore contain additional information about unrelated "benign" variants, that is not pertinent to our task.
 Tracking variants-of-concern based strain labels alone does not provide sufficient defence since the individual variant-of-concern may spontaneously arise in another genetically distant strain. 
-
 For reproducing vaccine sequences and SARS-CoV-2 variants-of-concern,
 we use coordinate positions relative to the reference sequence
 for S glycoprotein protein

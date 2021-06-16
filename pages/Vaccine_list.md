@@ -18,9 +18,11 @@ including a link to at least one trial or report (instead of all trial links) to
 [who_novel-covid-19-vaccine-tracker_clinical_phase.xlsx](../vaccine_list/who_novel-covid-19-vaccine-tracker_clinical_phase.xlsx).
 
 ### Vaccines with WHO EUL/PQ finalized reports
+> The World Health Organization (WHO) Prequalification (PQ) Units’ Emergency Use Listing (EUL) is a unique WHO-facilitated regulatory pathway that can only be used in a declared public health emergency of international concern (PHEIC) or other public health emergency designated by the WHO Director-General1. This emergency scenario allows for a product to be listed based on an earlier package of safety and efficacy data than is the norm
+([Thiel et al., npj Vac 2021](https://www.nature.com/articles/s41541-021-00325-4)).
 The 
 [COVID-19 vaccine tracker and landscape](https://www.who.int/publications/m/item/draft-landscape-of-covid-19-candidate-vaccines) 
-also provides a guidance document listing current COVID-19 vaccine candidates undergoing assessment for WHO Emergency Use Listing and prequalification (WHO EUL/PQ), 
+also provides a guidance document listing current COVID-19 vaccine candidates undergoing assessment with the WHO EUL/PQ,
 [as a PDF download](https://extranet.who.int/pqweb/sites/default/files/documents/Status%20of%20COVID-19%20Vaccines%20within%20WHO%20EUL-PQ%20evaluation%20process%20-%203%20June%202021.pdf).
 
 We have formatted this in markdown and xlsx format for download

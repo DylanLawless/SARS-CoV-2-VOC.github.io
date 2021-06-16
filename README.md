@@ -1,10 +1,16 @@
 # Variants of concern aligned to SARS-CoV-2 vaccine coding sequences
-
-This work has not been peer reviewed.
-
-[Open PDF visualisation - variants_of_concern_to_vaccine.pdf](./variants_of_concern_to_vaccine.pdf)
+In the event of SARS-CoV-2 vaccine-resistant strain emergence, we would like to quickly determine which vaccines are affected.
+Differences in national vaccination coverage, vaccine efficacy, viral phylogenetics, and infection reporting means that a robust statistical analysis of vaccine-resistance will be unlikely to return actionable findings as quickly as needed.
+Understanding each vaccine design and having a detailed comparison of vaccine coding sequences is critical for pre-emptively assessing the risk. 
+Here we compile data from vaccine designers and major health organisations to define the similarities and differences between each vaccines.
+We target the coding sequences for vaccines on the World Health Organization (WHO) Prequalification (PQ) Units’ Emergency Use Listing (EUL) and compare them against variants-of-concern in circulating SARS-CoV-2 strains. 
+Currently, there are no variants of high concern. 
 
 ## Aims and results overview
+[Open PDF visualisation - variants_of_concern_to_vaccine.pdf](./variants_of_concern_to_vaccine.pdf)
+
+> Note: This work has not been peer reviewed. Every care has been taken by the authors to report accurate and sourced material, however caution is advised. This material is provided under live development to promote open-science. 
+
 * To produce standardized alignments of vaccine sequences.
 * Determine which are at risk to emerging variants.
 
@@ -76,28 +82,27 @@ Fasta sequences are included for:
 
 ## How we source and anlyze our data
 
-[Vaccine list](pages/Vaccine_list)
+1 [Vaccine list](pages/Vaccine_list) - Tables of all vaccines in trials and all vaccines with WHO EUL/PQ finalized reports that we use for our main analysis.
 
-[Vaccine sequences summarised](pages/Vaccine_sequences_summarised.md)
+[Vaccine sequences summarised](pages/Vaccine_sequences_summarised.md) - A short overview of the delivery methods and genetic modifications for vaccine coding sequences are required for our main analysis. 
 
-[Vaccine details](pages/Vaccine_details.md)
+[Vaccine details](pages/Vaccine_details.md) - A longer set of pertinent details about each vaccine that are required for interpreting the risk upon emergence of vaccine resistant variants.
 
-[Naming SARS-CoV-2 variants](pages/Naming_SARS-CoV-2_variants.md)
+[Naming SARS-CoV-2 variants](pages/Naming_SARS-CoV-2_variants.md) - Technical details of the established nomenclature systems for naming and tracking SARS-CoV-2 genetic lineages. Additional recommendations for tracking variants-of-concern based on coding position coordinates and aligning all WHO EUL/PQ finalized vaccine coding sequences for pre-emptive planning. 
 
-[Vaccine genetic design](pages/Vaccine_genetic_design.md)
+[Vaccine genetic design](pages/Vaccine_genetic_design.md) - Overview of the coding sequence genetics used by vaccine designers. Illustrates the similarities and differences between each vaccine, with or without genetic modification for an improved immune response. Critical for establishing the effect of variants-of-concern that may affect multiple vaccination strategies. 
 
-[Vaccine sequence reproduction](pages/Vaccine_sequence_reproduction.md)
+[Vaccine sequence reproduction](pages/Vaccine_sequence_reproduction.md) - Detailed information about the construction of our coding sequence alignments. Reproduction of vaccine genetic designs using primary literature and reference sequence data. 
 
-[Variants-of-concern](pages/Variants-of-concern.md)
+[Variants-of-concern](pages/Variants-of-concern.md) - Overview of the variants-of-concern as reported by the CDC. Currently no variants of high-concern are reported. 
 
-[Variants-of-concern_aligned_to_vaccine](pages/Variants-of-concern_aligned_to_vaccine.md)
+[Variants-of-concern_aligned_to_vaccine](pages/Variants-of-concern_aligned_to_vaccine.md) - Details about the combination of variants-of-concern and vaccine coding sequences. Produces a visual map of SARS-CoV-2 variants against each vaccine coding sequence, which is responsible for S protein expression. Emergence of viral strains containing new S protein variants may produce epitopes that fail to initiate sufficient vaccine-stimulated immune recognition.
 
-[Main file for download](pages/Main_files.md)
+[Main file for download](pages/Main_files.md) - The main files that might be useful to researchers, containing raw and processed data, are listed here together. Other files that are not listed but are present in the data folder will contain intermediate data.
 
-[Other notes](notes.md)
+[Other notes](notes.md) - Other notes with snippets and temporary, related material. 
 
 ![](https://static01.nyt.com/newsgraphics/2020/04/02/virus-genome/assets/images/ribosome-600.png)
-
 ## About
 Location: [Switzerland, Canton Vaud](https://goo.gl/maps/Xv1bY6Tgn4a5ccwN9)
 
