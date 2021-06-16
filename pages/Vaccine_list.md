@@ -1,7 +1,5 @@
-[Homepage](https://sarscov2variants.com)
-
-# Vaccine list
-## All vaccines in trials
+## Vaccine list
+### All vaccines in trials
 Vaccines in clinical development were sourced from the datasets compiled by the WHO
 [COVID-19 vaccine tracker and landscape](https://www.who.int/publications/m/item/draft-landscape-of-covid-19-candidate-vaccines).
 Their dataset is updated twice per week by searching, gathering and cross-checking data from multiple sources such as the 
@@ -13,11 +11,13 @@ and others.
 The dataset compiled by WHO is used to extract 
 all vaccines in clinical development at:
 [COVID-19 vaccine tracker and landscape](https://www.who.int/publications/m/item/draft-landscape-of-covid-19-candidate-vaccines).
-To find the current status of clinical evaluation (Trial registries and public reports) for a vaccine, please refer to the WHO dataset by downloading their spreadsheet ("date" novel-covid-19-vaccine-tracker.xlsx.zip). 
-We are using a simplified internal copy of this data for vaccines in clinical trials, including a link to at least one trial or report (instead of all trial links) to check for the earliest mention of a producer's coding sequence information: 
+To find the current status of clinical evaluation (Trial registries and public reports) for a vaccine, 
+please refer to the WHO dataset by downloading the spreadsheet from their website ("date" novel-covid-19-vaccine-tracker.xlsx.zip). 
+We are using a simplified internal copy of this data for vaccines in clinical trials, 
+including a link to at least one trial or report (instead of all trial links) to check for the earliest mention of a producer's coding sequence information: 
 [who_novel-covid-19-vaccine-tracker_clinical_phase.xlsx](../vaccine_list/who_novel-covid-19-vaccine-tracker_clinical_phase.xlsx).
 
-## Vaccines with WHO EUL/PQ finalized reports
+### Vaccines with WHO EUL/PQ finalized reports
 The 
 [COVID-19 vaccine tracker and landscape](https://www.who.int/publications/m/item/draft-landscape-of-covid-19-candidate-vaccines) 
 also provides a guidance document listing current COVID-19 vaccine candidates undergoing assessment for WHO Emergency Use Listing and prequalification (WHO EUL/PQ), 
@@ -41,7 +41,7 @@ This sequence, along with the construction methods is provided in the fasta file
 |	1	|	Pfizer/Biontech	|	BNT162b2 (COMIRNATY Tozinameran (INN))	|	EMA 	|	Nucleoside modified mNRA 	|	Yes	|	Yes	|	Yes	|	Finalized 	|	31.12.20	|
 |	2.1	|	Oxford-AstraZeneca	|	AZD1222 	|	EMA 	|	Recombinant ChAdOx1 adenoviral vector encoding the Spike protein antigen of the SARS-CoV-2. 	|	Yes	|	Yes	|	Accepted core data, Data for Covax sites expected in April 2021 onwards 	|	Finalized core data, Finalised sites: SK-Catalent 16 April 2021, Wuxi (DS)  30 April 2021, Chemo Spain 04 June 2021, Other sites As submitted.	|	16.Apr.21	|
 |	2.2	|	Oxford-AstraZeneca	|	AZD1222 	|	MFDS KOREA 	|	Recombinant ChAdOx1 adenoviral vector encoding the Spike protein antigen of the SARS-CoV-2. 	|	Yes	|	Yes	|	Yes	|	Finalized 	|	15.Feb.21	|
-|	3	|	Serum Institute Of India	|	ChAdOx1_nCoV-19 (Covishield) 	|	DCGI 	|	Recombinant ChAdOx1 adenoviral vector encoding the Spike protein antigen of the SARS-CoV-2. 	|	Yes	|	Yes	|	Yes	|	Finalized 	|	15.Feb.21	|
+|	3	|	Serum Institute Of India	|	ChAdOx1\_nCoV-19 (Covishield) 	|	DCGI 	|	Recombinant ChAdOx1 adenoviral vector encoding the Spike protein antigen of the SARS-CoV-2. 	|	Yes	|	Yes	|	Yes	|	Finalized 	|	15.Feb.21	|
 |	4	|	Janssen Infectious Disease and Vaccines	|	Ad26.COV2.S 	|	EMA 	|	Recombinant, replication- incompetent adenovirus type 26 (Ad26) vectored vaccine encoding the (SARS-CoV-2) Spike (S) protein 	|	Yes	|	Yes	|	Core data Yes, Additional sites: Aspen South Africa - Other sites	|	Finalized: US +NL sites, Ongoing: other sites	|	12.Mar.21	|
 |	5	|	Moderna	|	mRNA-1273 	|	EMA 	|	mNRA-based vaccine encapsulated in lipid nanoparticle (LNP) 	|	Yes	|	Yes	|	Yes	|	Finalized 	|	30.Apr.21	|
 |	6	|	Sinopharm / BIBP (Beijing Bio-Institute of Biological Products Co-Ltd)	|	SARS-CoV-2 Vaccine (Vero Cell), Inactivated (lnCoV) 	|	NMPA 	|	Inactivated, produced in Vero cells 	|	Yes	|	Yes	|	Yes	|	Finalized 	|	07.May.21	|
