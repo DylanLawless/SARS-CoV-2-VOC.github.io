@@ -2,12 +2,12 @@
 In the event of SARS-CoV-2 vaccine-resistant strain emergence, we would like to quickly determine which vaccines are affected.
 Differences in national vaccination coverage, vaccine efficacy, viral phylogenetics, and infection reporting means that a robust statistical analysis of vaccine-resistance will be unlikely to return actionable findings as quickly as needed.
 Understanding each vaccine design and having a detailed comparison of vaccine coding sequences is critical for pre-emptively assessing the risk. 
-Here we compile data from vaccine designers and major health organisations to define the similarities and differences between each vaccines.
+Here we compile data from vaccine designers and major health organisations to define the similarities and differences between each vaccine.
 We target the coding sequences for vaccines on the World Health Organization (WHO) Prequalification (PQ) Units’ Emergency Use Listing (EUL) and compare them against variants-of-concern in circulating SARS-CoV-2 strains. 
 Currently, there are no variants of high concern. 
 
 ## Aims and results overview
-[Open PDF visualisation - variants_of_concern_to_vaccine.pdf](./variants_of_concern_to_vaccine.pdf)
+[Open PDF visualisation - variants_of_concern_to_vaccine.pdf](../data/variants_of_concern_to_vaccine.pdf)
 
 > Note: This work has not been peer reviewed. Every care has been taken by the authors to report accurate and sourced material, however caution is advised. This material is provided under live development to promote open-science. 
 
@@ -82,7 +82,7 @@ Fasta sequences are included for:
 
 ## How we source and anlyze our data
 
-1 [Vaccine list](pages/Vaccine_list) - Tables of all vaccines in trials and all vaccines with WHO EUL/PQ finalized reports that we use for our main analysis.
+[Vaccine list](pages/Vaccine_list) - Tables of all vaccines in trials and all vaccines with WHO EUL/PQ finalized reports that we use for our main analysis.
 
 [Vaccine sequences summarised](pages/Vaccine_sequences_summarised.md) - A short overview of the delivery methods and genetic modifications for vaccine coding sequences are required for our main analysis. 
 
@@ -96,7 +96,7 @@ Fasta sequences are included for:
 
 [Variants-of-concern](pages/Variants-of-concern.md) - Overview of the variants-of-concern as reported by the CDC. Currently no variants of high-concern are reported. 
 
-[Variants-of-concern_aligned_to_vaccine](pages/Variants-of-concern_aligned_to_vaccine.md) - Details about the combination of variants-of-concern and vaccine coding sequences. Produces a visual map of SARS-CoV-2 variants against each vaccine coding sequence, which is responsible for S protein expression. Emergence of viral strains containing new S protein variants may produce epitopes that fail to initiate sufficient vaccine-stimulated immune recognition.
+[Variants-of-concern aligned to vaccine](pages/Variants-of-concern_aligned_to_vaccine.md) - Details about the combination of variants-of-concern and vaccine coding sequences. Produces a visual map of SARS-CoV-2 variants against each vaccine coding sequence, which is responsible for S protein expression. Emergence of viral strains containing new S protein variants may produce epitopes that fail to initiate sufficient vaccine-stimulated immune recognition.
 
 [Main file for download](pages/Main_files.md) - The main files that might be useful to researchers, containing raw and processed data, are listed here together. Other files that are not listed but are present in the data folder will contain intermediate data.
 
@@ -116,5 +116,8 @@ Created for open-science by: [https://lawlessgenomics.com](https://lawlessgenomi
 Host-pathogen genomic scientist. PhD (Medicine in Genetics and Immunology), MSc (Immunology), BSc (Microbiology)
 
 Contribute via the original repository at [github.com/DylanLawless](https://github.com/DylanLawless/SARS-CoV-2-VOC.github.io).
-With minimalism and privacy in mind, this site is built to be light and fast as well as containing [no ads, trackers, cookies, &c](https://themarkup.org/blacklight?url=sarscov2variants.com). [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/).
+With minimalism and privacy in mind, this site is built to be light and fast. 
+This site containing no ads, cookies, &c. However, one analytics tracker is included for counting page views to [determine our resource requirements.](https://themarkup.org/blacklight?url=sarscov2variants.com). 
+
+[CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/).
 <!-- https://www.paypal.com/donate?hosted_button_id=7K3CD4KDMKPBS -->
