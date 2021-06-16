@@ -2,7 +2,7 @@
 ## All vaccines in trials
 Vaccines in clinical development were sourced from the datasets compiled by the WHO
 [COVID-19 vaccine tracker and landscape](https://www.who.int/publications/m/item/draft-landscape-of-covid-19-candidate-vaccines).
-This dataset is updated twice per week by searching, gathering and cross-checking data from multiple sources such as the 
+Their dataset is updated twice per week by searching, gathering and cross-checking data from multiple sources such as the 
 [Cochrane vaccine mapping tool](https://covid-nma.com/vaccines/mapping/), 
 [PubMed](https://pubmed.ncbi.nlm.nih.gov), 
 [ClinicalTrials.gov](https://www.clinicaltrials.gov), 
@@ -12,7 +12,7 @@ The dataset compiled by WHO is used to extract
 all vaccines in clinical development at:
 [COVID-19 vaccine tracker and landscape](https://www.who.int/publications/m/item/draft-landscape-of-covid-19-candidate-vaccines).
 To find the current status of clinical evaluation (Trial registries and public reports) for a vaccine, please refer to the WHO dataset by downloading the spreadsheet ("date" novel-covid-19-vaccine-tracker.xlsx.zip). 
-We are using a simplified internal copy of this data for vaccines in clinical trials, including a link to at least one trial or report to check for coding sequence information: 
+We are using a simplified internal copy of this data for vaccines in clinical trials, including a link to at least one trial or report (instead of all trial links) to check for the easliest mention of a producer's coding sequence information: 
 [who_novel-covid-19-vaccine-tracker_clinical_phase.xlsx](../vaccine_list/who_novel-covid-19-vaccine-tracker_clinical_phase.xlsx).
 
 ## Vaccines with WHO EUL/PQ finalized reports

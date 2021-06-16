@@ -76,11 +76,41 @@ Fasta sequences are included for:
 * AZD1222 alleged unmodified YP_009724390.1
 
 ## Vaccine list
-We are tracking vaccines under WHO Emergency Use Listing and prequalification (WHO EUL/PQ) evaluation process 
-[as shown in this linked table](vaccine_list/Status_of_COVID-19_Vaccines_within_WHO_EUL_PQ_evaluation_process.md).
-You can read about our data sources in 
-[vaccine_list.md](vaccine_list/vaccine_list.md).
+### All vaccines in trials
+Vaccines in clinical development were sourced from the datasets compiled by the WHO
+[COVID-19 vaccine tracker and landscape](https://www.who.int/publications/m/item/draft-landscape-of-covid-19-candidate-vaccines).
+Their dataset is updated twice per week by searching, gathering and cross-checking data from multiple sources such as the 
+[Cochrane vaccine mapping tool](https://covid-nma.com/vaccines/mapping/), 
+[PubMed](https://pubmed.ncbi.nlm.nih.gov), 
+[ClinicalTrials.gov](https://www.clinicaltrials.gov), 
+[WHO ICTRP](https://www.who.int/clinical-trials-registry-platform/the-ictrp-search-portal), 
+and others. 
+The dataset compiled by WHO is used to extract 
+all vaccines in clinical development at:
+[COVID-19 vaccine tracker and landscape](https://www.who.int/publications/m/item/draft-landscape-of-covid-19-candidate-vaccines).
+To find the current status of clinical evaluation (Trial registries and public reports) for a vaccine, please refer to the WHO dataset by downloading the spreadsheet ("date" novel-covid-19-vaccine-tracker.xlsx.zip). 
+
+### Vaccines with WHO EUL/PQ finalized reports
+The 
+[COVID-19 vaccine tracker and landscape](https://www.who.int/publications/m/item/draft-landscape-of-covid-19-candidate-vaccines) 
+also provides a guidance document listing current COVID-19 vaccine candidates undergoing assessment for WHO Emergency Use Listing and prequalification (WHO EUL/PQ), 
+[as a PDF download](https://extranet.who.int/pqweb/sites/default/files/documents/Status%20of%20COVID-19%20Vaccines%20within%20WHO%20EUL-PQ%20evaluation%20process%20-%203%20June%202021.pdf).
+
+The linkded table shows the
+* [Status of COVID-19 Vaccines within WHO EUL/PQ evaluation process.md](./vaccine_list/Status_of_COVID-19_Vaccines_within_WHO_EUL_PQ_evaluation_process.md).
+
+We have also formatted this in xlsx format for download
+* [Status of COVID-19 Vaccines within WHO EUL/PQ evaluation process.xlsx](./vaccine_list/Status_of_COVID-19_Vaccines_within_WHO_EUL_PQ_evaluation_process.xlsx).
+
 We have reproduced the vaccine coding sequences for each vaccine that has a _finalized_ status under the WHO EUL/PQ evaluation process.
+For each vaccine, a review of the primary literature was performed to find the exact coding sequence and reference sequence. 
+For those with no coding sequence provided (the majority), 
+the authors' description of genetic modification was used to reconstruct the vaccine coding sequence. 
+This sequence, along with the construction methods is provided in the fasta file matching the vaccine name.
+
+A stand-alone link to this 
+[vaccine list section](vaccine_list/vaccine_list.md)
+can be shared for easier access by others for review.
 
 ## Vaccine sequences summarised
 <!--[HGVS-style notation](https://varnomen.hgvs.org/recommendations/protein/variant/delins/) is used for standardized reporting.-->
