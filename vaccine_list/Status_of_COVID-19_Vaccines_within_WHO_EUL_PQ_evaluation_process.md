@@ -1,3 +1,6 @@
+[Homepage](https://sarscov2variants.com)
+
+
 |	No.	|	Manufacturer / WHO EUL holder 	|	Name of Vaccine 	|	NRA of Record 	|	Platform 	|	EOI accepted 	|	Pre- submission meeting held 	|	Dossier accepted for review	|	Status of assessment	|	Anticipated decision date	|
 |	---:	|	:---	|	:---	|	:---	|	:---	|	:---	|	:---	|	:---	|	:---	|	:---	|
 |	1	|	Pfizer/Biontech	|	BNT162b2 (COMIRNATY Tozinameran (INN))	|	EMA 	|	Nucleoside modified mNRA 	|	Yes	|	Yes	|	Yes	|	Finalized 	|	31.12.20	|
