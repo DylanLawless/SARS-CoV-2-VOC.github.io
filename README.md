@@ -77,37 +77,24 @@ Fasta sequences are included for:
 ## How we source and anlyze our data
 
 [Vaccine list](pages/Vaccine_list)
+
 [Vaccine sequences summarised](pages/Vaccine_sequences_summarised.md)
 
-
-<button name="button" onclick="pages/Vaccine_sequences_summarised.md">Vaccine sequences summarised</button>
-
-<button name="button" onclick="http://www.google.com">Click me</button>
-
-
-## Vaccine details
 [Vaccine details](pages/Vaccine_details.md)
 
-## Naming SARS-CoV-2 variants
 [Naming SARS-CoV-2 variants](pages/Naming_SARS-CoV-2_variants.md)
 
-## Vaccine genetic design
 [Vaccine genetic design](pages/Vaccine_genetic_design.md)
 
-## Vaccine sequence reproduction
 [Vaccine sequence reproduction](pages/Vaccine_sequence_reproduction.md)
 
-## Variants-of-concern
 [Variants-of-concern](pages/Variants-of-concern.md)
 
-## Variants-of-concern aligned to vaccine
 [Variants-of-concern_aligned_to_vaccine](pages/Variants-of-concern_aligned_to_vaccine.md)
 
-## Main files
-[Main files](pages/Main_files.md)
+[Main file for download](pages/Main_files.md)
 
-## Other notes
-[notes.md](notes.md)
+[Other notes](notes.md)
 
 ![](https://static01.nyt.com/newsgraphics/2020/04/02/virus-genome/assets/images/ribosome-600.png)
 
