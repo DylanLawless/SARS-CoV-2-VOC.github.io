@@ -1,0 +1,4 @@
+#!/bin/bash 
+ffmpeg -i 6zox_voc_20210604_stage.mpg -vf scale=500:-1:flags=lanczos,format=rgb24 -loop 0 6zox_voc_20210604_stage.gif
+
+

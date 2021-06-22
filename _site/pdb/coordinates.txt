@@ -1,0 +1,12 @@
+(chain A and resid 13 18 20 26 69 70 80 138 144 152 190 215 241 242 243 417 417 452 484 494 501 501 570 614 655 681 701 716 982 1027 1118 1191)
+
+(chain B and resid 13 18 20 26 69 70 80 138 144 152 190 215 241 242 243 417 417 452 484 494 501 501 570 614 655 681 701 716 982 1027 1118 1191)
+
+(chain C and resid 13 18 20 26 69 70 80 138 144 152 190 215 241 242 243 417 417 452 484 494 501 501 570 614 655 681 701 716 982 1027 1118 1191)
+
+Chains A B C are shown by three shades of yellow-red and variants-of-concern in blue-purples.
+
+tachyon internal
+vmdscene2.tga
+-aasamples 12 %s -format TGA -res 1024 1024 -o %s.tga" /usr/bin/open %s
+

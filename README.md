@@ -4,7 +4,8 @@ Differences in national vaccination coverage, vaccine efficacy, viral phylogenet
 Understanding each vaccine design and having a detailed comparison of vaccine coding sequences is critical for pre-emptively assessing the risk. 
 Here we compile data from vaccine designers and major health organisations to define the similarities and differences between each vaccine.
 We target the coding sequences for vaccines on the World Health Organization (WHO) Prequalification (PQ) Units’ Emergency Use Listing (EUL) and compare them against variants-of-concern in circulating SARS-CoV-2 strains. 
-Currently, there are no variants of high concern. 
+
+* _Currently, there are no variants of high concern_.
 
 ## Aims and results overview
 [Open PDF visualisation - variants_of_concern_to_vaccine.pdf](../data/variants_of_concern_to_vaccine.pdf)
@@ -47,7 +48,7 @@ provided by Xiong et al., 2020 [10.1038/s41594-020-0478-5](https://www.nature.co
 * [6zox_voc_20210604_side.jpg](./pdb/renders/6zox_voc_20210604_side.jpg)
 * [6zox_voc_20210604_top.jpg](./pdb/renders/6zox_voc_20210604_top.jpg)
 
-![](./pdb/renders/6zox_voc_20210604_stage.gif)
+<div style="text-align:center"><img src="./pdb/renders/6zox_voc_20210604_stage.gif" width="80%"/></div>
 
 Two of the defining genetic features that are different between vaccines are seen here, 
 * the S glycoprotein furin cleavage modification region (p.682-685)
@@ -102,14 +103,16 @@ Fasta sequences are included for:
 
 [Other notes](notes.md) - Other notes with snippets and temporary, related material. 
 
-![](https://static01.nyt.com/newsgraphics/2020/04/02/virus-genome/assets/images/ribosome-600.png)
+<!-- ![](https://static01.nyt.com/newsgraphics/2020/04/02/virus-genome/assets/images/ribosome-600.png) -->
+<div style="text-align:center"><img src="https://static01.nyt.com/newsgraphics/2020/04/02/virus-genome/assets/images/ribosome-600.png" /></div>
+
 ## About
+<!-- ![](./images/location.png) -->
+<div style="text-align:left"><img src="./images/location.png" width="50%"/></div>
+
 Location: [Switzerland, Canton Vaud](https://goo.gl/maps/Xv1bY6Tgn4a5ccwN9)
 
-<!-- ![](./images/location.png) -->
-<img src="./images/location.png" width="50%"/>
-
-Created for open-science by: [https://lawlessgenomics.com](https://lawlessgenomics.com)
+Created in support of open-science by: [https://lawlessgenomics.com](https://lawlessgenomics.com)
 
 [Contact - Resume - CV](https://dylan-lawless.github.io)
 
@@ -117,7 +120,7 @@ Host-pathogen genomic scientist. PhD (Medicine in Genetics and Immunology), MSc 
 
 Contribute via the original repository at [github.com/DylanLawless](https://github.com/DylanLawless/SARS-CoV-2-VOC.github.io).
 With minimalism and privacy in mind, this site is built to be light and fast. 
-This site containing no ads, cookies, &c. However, one analytics tracker is included for counting page views to [determine our resource requirements.](https://themarkup.org/blacklight?url=sarscov2variants.com). 
+This site containing no ads, cookies, &c. However, one analytics tracker is included for counting page views to [determine our resource requirements](https://themarkup.org/blacklight?url=sarscov2variants.com). 
 
 [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/).
 <!-- https://www.paypal.com/donate?hosted_button_id=7K3CD4KDMKPBS -->

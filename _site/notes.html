@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+
+    
+      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-199638391-1"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-199638391-1');
+      </script>
+    
+    <meta charset="UTF-8">
+
+<!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>Notes | [“SARS-CoV-2 variants”]</title>
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="Notes" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="[“Open-source tracking for emerging SARS-CoV-2 variants that pose a risk based on COVID-19 vaccine genetics.”]" />
+<meta property="og:description" content="[“Open-source tracking for emerging SARS-CoV-2 variants that pose a risk based on COVID-19 vaccine genetics.”]" />
+<link rel="canonical" href="http://localhost:4000/notes.html" />
+<meta property="og:url" content="http://localhost:4000/notes.html" />
+<meta property="og:site_name" content="[“SARS-CoV-2 variants”]" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Notes" />
+<script type="application/ld+json">
+{"description":"[“Open-source tracking for emerging SARS-CoV-2 variants that pose a risk based on COVID-19 vaccine genetics.”]","headline":"Notes","url":"http://localhost:4000/notes.html","@type":"WebPage","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preload" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" as="style" type="text/css" crossorigin>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#157878">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="stylesheet" href="/assets/css/style.css?v=5d08da5f7cc8812adeed9d1a26ca7f071ba52c6d">
+  </head>
+  <body>
+	<!-- <a id="skip-to-content" href="#content">Skip to the content.</a> -->
+
+    <header class="page-header" role="banner">
+	<!-- <div class="logoimage"> -->
+	<!-- <img style="margin-bottom:-16px" -->
+	<!-- src="/images/logos/logo4.2_300_grey.png" -->
+	<!-- alt="Logo image" width="35.7" height="55" /> -->
+	<!-- </div> -->
+	
+	<div class="project-name" >
+		<h1> SARS-CoV-2 variants </h1>
+      <h2 class="project-tagline">Open-source tracking for emerging SARS-CoV-2 variants that pose a risk based on COVID-19 vaccine genetics.</h2>
+      <!-- 
+        <a href="https://github.com/DylanLawless/SARS-CoV-2-VOC.github.io" class="btn">View on GitHub</a>
+		 -->
+      
+	</div>  
+    </header>
+
+    <main id="content" class="main-content" role="main">
+      <h1 id="notes">Notes</h1>
+<h2 id="website-deployment">Website deployment</h2>
+<p>The site redeployed under lawlessgenomics.com as a project using a second custom domain name. 
+The site is built using the git repo
+<a href="https://github.com/DylanLawless/SARS-CoV-2-VOC.github.io">https://github.com/DylanLawless/SARS-CoV-2-VOC.github.io</a>.
+The CNAME points to the website domain. 
+The github pages settings page points to <sarscov2variants.com> using master branch.</sarscov2variants.com></p>
+
+<p>On my domain provider, the CNAME is dylanlawless.github.io. 
+This is the same as for lawlessgenomics.com.
+You might expect the CNAME instead to be dylanlawless.github.io/SARS-CoV-2-VOC.github.io but that is not correct. 
+Think of it as follows:</p>
+
+<ol>
+  <li>A custom domain CNAME will point to the github user (not project).</li>
+  <li>Then from within the github user project, the project will point back to that custom doamin so that they can “link”.</li>
+</ol>
+
+<p>This is an important point that is not easy to find anywhere online and only a criptic expanation by github. 
+This blogpost exaplains it perfectly
+<a href="https://deanattali.com/blog/multiple-github-pages-domains/">https://deanattali.com/blog/multiple-github-pages-domains/</a></p>
+
+<h2 id="other-useful-blogs-and-reports">Other useful blogs and reports</h2>
+<ul>
+  <li>
+    <p>Derek Lowe’s article on lipid delivery systems:
+<a href="https://blogs.sciencemag.org/pipeline/archives/2021/01/11/rna-vaccines-and-their-lipids">RNA Vaccines And Their Lipids</a></p>
+  </li>
+  <li>
+    <p>Jonas Neubert and Cornelia Scheitz article of vaccine production and delivery: <a href="https://blog.jonasneubert.com/2021/01/10/exploring-the-supply-chain-of-the-pfizer-biontech-and-moderna-covid-19-vaccines/">Exploring the Supply Chain of the Pfizer/BioNTech and Moderna COVID-19 vaccines</a>.</p>
+  </li>
+  <li>
+    <p>Bert Hubert’s article on the sequence of BNT-162b2, including the genetic modifications compared to the reference: <a href="https://berthub.eu/articles/posts/reverse-engineering-source-code-of-the-biontech-pfizer-vaccine/">Reverse Engineering the source code of the BioNTech/Pfizer SARS-CoV-2 Vaccine</a></p>
+  </li>
+</ul>
+
+<p>Comments that I want to keep on hand:</p>
+<blockquote>
+  <p>According to WHO, on Aug 13, 2020, 29 candidate vaccines based on different platforms (vectored, DNA, mRNA, inactivated, etc) were being tested in clinical trials against severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) proteins. <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7471804/">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7471804/</a></p>
+</blockquote>
+
+<blockquote>
+  <p>Several candidate COVID-19 vaccines have been tested in clinical trials, including an adenovirus type 5 (Ad5) vector-based vaccine (CanSino Biological/Beijing Institute of Biotechnology, China), an Ad26 vector-based vaccine (Johnson &amp; Johnson, USA), and a vaccine containing a simian adenoviral vector (AstraZeneca/University of Oxford, UK).</p>
+</blockquote>
+
+<blockquote>
+  <p>Glycoprotein S consists of two subunits: S1 contains a receptor-binding domain (RBD), which interacts with the ACE2 receptor on the cell surface; S2 mediates the fusion of viral and cell membranes via formation of a six-helix bundle fusion core.
+<a href="https://pubmed.ncbi.nlm.nih.gov/32231345/">https://pubmed.ncbi.nlm.nih.gov/32231345/</a>
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7221370/">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7221370/</a>
+To protect against SARS-CoV-2 infection, it is important to form neutralising antibodies targeting S1 RBD, S1 N-terminal domain, or the S2 region; these antibodies block binding of the RBD to the ACE2 receptor and prevent S2-mediated membrane fusion or entry into the host cell, thus inhibiting viral infection.
+<a href="https://pubmed.ncbi.nlm.nih.gov/32249063/">https://pubmed.ncbi.nlm.nih.gov/32249063/</a>
+<a href="https://pubmed.ncbi.nlm.nih.gov/32635180/">https://pubmed.ncbi.nlm.nih.gov/32635180/</a></p>
+</blockquote>
+
+<blockquote>
+  <p>The six COVID-19 vaccines currently in use around the world employ different strategies, and do not all incorporate the two proline substitutions that “lock” S into the pre-fusion conformer. Vaccines that do not utilize pre-fusion “locked” S are expected to produce lower levels of neutralizing antibodies, and hence may be less efficacious against infection, even if they do protect against severe COVID-19. Indeed, a two-dose regimen of the AstraZeneca ChAdOx1 based vaccine, which does not use a “locked” S, did not protect against mild-to-moderate COVID-19 in S. Africa, where 93% of COVID-19 cases in trial participants were caused by the B.1.351 variant 32. Like the AstraZeneca ChAdOx1 vaccine, the Sputnik V vaccine (Gam-COVID-Vac) is based on adenovirus vectored expression of a native S sequence, rather than a pre-fusion “locked” S 33.
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8043464/">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8043464/</a>
+However, the cited [Logunov et al 2020 Lancet] does not specificy the S protein sequence, from what I read.</p>
+</blockquote>
+
+<p>Vaccine mRNA-1273 is a nucleoside-modified messenger RNA encoding the SARS-CoV-2 spike glycoprotein (S) stabilized in its prefusion configuration [1].</p>
+
+<p>Specifically, it encodes the S-2P antigen, 
+consisting of the SARS-CoV-2 glycoprotein with a transmembrane anchor and an intact S1–S2 cleavage site. 
+S-2P is stabilized in its prefusion conformation by two consecutive proline substitutions at amino acid positions 986 and 987, 
+at the top of the central helix in the S2 subunit [1],
+as shown here in <img src="https://science.sciencemag.org/content/sci/367/6483/1260/F1.large.jpg?width=800&amp;height=600&amp;carousel=1" alt="Figure 1" />
+[2].</p>
+
+<h1 id="references">References</h1>
+
+<p>[1] @article{jackson2020mrna,
+  title={An mRNA vaccine against SARS-CoV-2—preliminary report},
+  author={Jackson, Lisa A and Anderson, Evan J and Rouphael, Nadine G and Roberts, Paul C and Makhene, Mamodikoe and Coler, Rhea N and McCullough, Michele P and Chappell, James D and Denison, Mark R and Stevens, Laura J and others},
+  journal={New England Journal of Medicine},
+  year={2020},
+  publisher={Mass Medical Soc}
+}
+<a href="https://www.nejm.org/doi/full/10.1056/NEJMoa2022483">https://www.nejm.org/doi/full/10.1056/NEJMoa2022483</a></p>
+
+<p>[2] @article{wrapp2020cryo,
+  title={Cryo-EM structure of the 2019-nCoV spike in the prefusion conformation},
+  author={Wrapp, Daniel and Wang, Nianshuang and Corbett, Kizzmekia S and Goldsmith, Jory A and Hsieh, Ching-Lin and Abiona, Olubukola and Graham, Barney S and McLellan, Jason S},
+  journal={Science},
+  volume={367},
+  number={6483},
+  pages={1260–1263},
+  year={2020},
+  publisher={American Association for the Advancement of Science}
+}
+<a href="https://science.sciencemag.org/content/367/6483/1260">https://science.sciencemag.org/content/367/6483/1260</a></p>
+
+
+
+	<footer class="site-footer">
+		
+		<span class="site-footer-owner">
+		<a href="https://lawlessgenomics.com"><img src="/images/logos/logo4.2_150ppi.png" 
+		alt="Logo image" width="17.85" height="27.25" /></a>
+		<a href="https://github.com/DylanLawless/SARS-CoV-2-VOC.github.io">SARS-CoV-2-VOC.github.io</a> is maintained by <a href="https://github.com/DylanLawless">DylanLawless</a>
+		</span>
+		
+	<!-- <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a>.</span> -->
+	<form action="https://www.paypal.com/donate" method="post" target="_top">
+<input type="hidden" name="hosted_button_id" value="UU3F4ND2JAP2W" />
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+<img alt="" border="0" src="https://www.paypal.com/en_IE/i/scr/pixel.gif" width="1" height="1" />
+</form>
+	<!--- https://www.paypal.com/donate?hosted_button_id=UU3F4ND2JAP2W --->
+	</footer>
+    </main>
+  </body>
+</html>
