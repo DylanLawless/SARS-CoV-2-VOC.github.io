@@ -2,6 +2,9 @@
 In the event of SARS-CoV-2 vaccine-resistant strain emergence, we would like to quickly determine which vaccines are affected.
 Differences in national vaccination coverage, vaccine efficacy, viral phylogenetics, and infection reporting means that a robust statistical analysis of vaccine-resistance will be unlikely to return actionable findings as quickly as needed.
 Understanding each vaccine design and having a detailed comparison of vaccine coding sequences is critical for pre-emptively assessing the risk. 
+
+Disturbingly, despite the expectation of scientific rigor, almost no genetic sequence data has been published from vaccine producers. 
+Some designers have provided a description of genetic modifications relative to a known reference genome - precluding protection of intellectual property as an explanation. 
 Here we compile data from vaccine designers and major health organisations to define the similarities and differences between each vaccine.
 We target the coding sequences for vaccines on the World Health Organization (WHO) Prequalification (PQ) Units’ Emergency Use Listing (EUL) and compare them against variants-of-concern in circulating SARS-CoV-2 strains. 
 
@@ -33,6 +36,8 @@ translated amino acid sequences of the vaccines;
 * Curevac CVnCoV
 * Sputnik V
 * AstraZeneca AZD1222
+* AstraZeneca AZD2816
+* BBIBP-CorV Sinopharm [(no published data)](pages/vaccine_seq_recovered)
 
 and reference protein/genome sequences;
 
@@ -80,6 +85,7 @@ Fasta sequences are included for:
 * NVX-CoV2373 vaccine translated
 * Sputnik V alleged unmodified YP_009724390.1
 * AZD1222 alleged unmodified YP_009724390.1
+* AZD2816 modified YP_009724390.1 with variants from B.1.351
 
 ## How we source and anlyze our data
 
@@ -105,6 +111,25 @@ Fasta sequences are included for:
 
 <!-- ![](https://static01.nyt.com/newsgraphics/2020/04/02/virus-genome/assets/images/ribosome-600.png) -->
 <div style="text-align:center"><img src="https://static01.nyt.com/newsgraphics/2020/04/02/virus-genome/assets/images/ribosome-600.png" /></div>
+
+## What is this?
+From humble research work to commercially-backed global vaccination, the scale of work in controlling COVID-19 due to SARS-CoV-2 infection has been vital and admirable. 
+However, publication credibility is dependent on accurate scientific reporting. 
+Vaccine producers have, in most cases, provided a description of their vaccine genetic sequence design in the primary literature. 
+Release of coding sequence data is therefore not a matter of intellectual property protection.
+It is concerning that all primary publications do not include the full coding sequence used.
+Providing instead, only a description of variants introduces a hurdle to interpretation and detracts from scientific credibility. 
+Some vaccine producers have never reported even the reference sequence, from which their unmodified sequence is derived. 
+Naturally, each vaccine has a different efficacy; a variable level of protection from infection and immunological response.
+Discussion of viral variant strains has become popular in the media. 
+Should a vaccine-resistant strain develop, the resistance will be defined by the vaccine coding sequence.
+We should not confound the facts about efficacy, variant strain, and vaccine genetic design.
+The scientific community has a responsibility not only to measure post-vaccination susceptibility to new viral strains, but to determine _why_ vaccine resistance may occur in reference to the vaccine coding sequence.
+Currently, all vaccine genetic sequences have been almost identical (the main differences being modifications to the stabilization and furin cleavage regions). 
+We want to be able to compare the genetic design of each vaccine; a requirement that should have been imposed during publication.
+We have taken the responsibility of providing this data publicly - 
+to answer our own call _"genetics on the table, please"._
+> "I am too familiar with the manner in which actual data are met with the suggestion that _other data, if they were collected, might show something else_ to believe it to have any value as an argument. "Statistics on the table, please," can be my sole reply. —Karl Pearson, 1910" Excerpt From: Stigler S.M. [Statistics on the table the history of statistical concepts and methods.](https://www.bookdepository.com/Statistics-on-the-Table/9780674009790)
 
 ## About
 <!-- ![](./images/location.png) -->
