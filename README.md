@@ -1,3 +1,5 @@
+If our live vaccine sequence alignment viewer has problems loading in your browser, [you can visit it here via NCBI.](https://www.ncbi.nlm.nih.gov/projects/msaviewer/?anchor=-1&coloring=fbd&key=pRY_z7kUZs3KOijK6SseNE6aNkhpOWc8azpDLFcoRQbUCmFht1uDivkLzMQh61SWBY5Ymka-HbtaoU6sSKpEsXaYS5Znqk0,rB82xrAdb8TDMyHD4CIXPUeTP05gP246YjxKKl4uTADdDGhnvl3zKFwSaczBx3G6IKJ9tmOSOJd_jWuAbYZhnVO0brpChmg&track_config=protein_default&from=608&to=756&columns=d:120,b:55,x:17,aln,e:55,o:150)
+
 # Variants of concern aligned to SARS-CoV-2 vaccine coding sequences
 In the event of SARS-CoV-2 vaccine-resistant strain emergence, we would like to quickly determine which vaccines are affected.
 Differences in national vaccination coverage, vaccine efficacy, viral phylogenetics, and infection reporting means that a robust statistical analysis of vaccine-resistance will be unlikely to return actionable findings as quickly as needed.
