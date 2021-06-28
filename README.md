@@ -36,6 +36,7 @@ translated amino acid sequences of the vaccines;
 * Curevac CVnCoV
 * Sputnik V
 * AstraZeneca AZD1222
+* AstraZeneca AZD2816
 * BBIBP-CorV Sinopharm [(no published data)](pages/vaccine_seq_recovered)
 
 and reference protein/genome sequences;
@@ -84,6 +85,7 @@ Fasta sequences are included for:
 * NVX-CoV2373 vaccine translated
 * Sputnik V alleged unmodified YP_009724390.1
 * AZD1222 alleged unmodified YP_009724390.1
+* AZD2816 modified YP_009724390.1 with variants from B.1.351
 
 ## How we source and anlyze our data
 
