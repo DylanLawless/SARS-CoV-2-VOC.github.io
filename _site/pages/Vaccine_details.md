@@ -52,7 +52,7 @@ a simple list would even be better: p.R682Q, p.R683Q, p.R685Q, p.K986P, and p.V9
 	- A viral vector vaccine 
 	- Viral vector (ChAdOx1 - chimpanzee adenovirus Oxford 1, [as published](https://pubmed.ncbi.nlm.nih.gov/22808149/))
 	- Expressing the unmodified S protein.
-	- No reference sequence found
+	- Unmodified MN908947 from reference sequence
 	- [Folegatti et al, Lancet July 2020](http://www.thelancet.com/retrieve/pii/S0140673620316044)
 
 

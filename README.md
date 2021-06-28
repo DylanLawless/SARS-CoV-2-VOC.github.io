@@ -1,12 +1,11 @@
-If our live vaccine sequence alignment viewer has problems loading in your browser, [you can visit it here via NCBI.](https://www.ncbi.nlm.nih.gov/projects/msaviewer/?anchor=-1&coloring=fbd&key=qhkwwLYbacLFNSfF5iQRO0GVWVAGIQgkBCIsNDgwKh67Eg5CyHhYWzczAoYJoxPeQsYf0gH2WvMd6QnkD-ID-THQDN4g4go,jT4X55E8TuXiEgDiwQM2HGayfnYhBy8CIwQLEh8WDTicNClk714CS8TL8QFrLrlT6Eu1X6t78H63ZKNppW-pdJtdplOKb6A&track_config=protein_default&from=207&to=278&columns=d:120,b:55,x:17,aln,e:55,o:150)
+If our live vaccine sequence alignment viewer has problems loading in your browser, [you can try here via NCBI.](https://www.ncbi.nlm.nih.gov/projects/msaviewer/?anchor=-1&coloring=fbd&key=qhkwwLYbacLFNSfF5iQRO0GVWVAGIQgkBCIsNDgwKh67Eg5CyHhYWzczAoYJoxPeQsYf0gH2WvMd6QnkD-ID-THQDN4g4go,jT4X55E8TuXiEgDiwQM2HGayfnYhBy8CIwQLEh8WDTicNClk714CS8TL8QFrLrlT6Eu1X6t78H63ZKNppW-pdJtdplOKb6A&track_config=protein_default&from=207&to=278&columns=d:120,b:55,x:17,aln,e:55,o:150)
 
 # Variants of concern aligned to SARS-CoV-2 vaccine coding sequences
 In the event of SARS-CoV-2 vaccine-resistant strain emergence, we would like to quickly determine which vaccines are affected.
 Differences in national vaccination coverage, vaccine efficacy, viral phylogenetics, and infection reporting means that a robust statistical analysis of vaccine-resistance will be unlikely to return actionable findings as quickly as needed.
 Understanding each vaccine design and having a detailed comparison of vaccine coding sequences is critical for pre-emptively assessing the risk. 
-
-Disturbingly, despite the expectation of scientific rigor, almost no _complete_ genetic coding sequence data has been published from vaccine producers. 
-Some designers have provided a description of genetic modifications relative to a known reference genome - precluding protection of intellectual property as an explanation. 
+<!-- Disturbingly, despite the expectation of scientific rigor, almost no _complete_ genetic coding sequence data has been published from vaccine producers. --> 
+<!-- Some designers have provided a description of genetic modifications relative to a known reference genome - precluding protection of intellectual property as an explanation. --> 
 Here we compile data from vaccine designers and major health organisations to define the similarities and differences between each vaccine.
 We target the coding sequences for vaccines on the World Health Organization (WHO) Prequalification (PQ) Units’ Emergency Use Listing (EUL) and compare them against variants-of-concern in circulating SARS-CoV-2 strains. 
 
@@ -88,7 +87,7 @@ Fasta sequences are included for:
 * Ad26.COV2-S vaccine translated
 * NVX-CoV2373 vaccine translated
 * Sputnik V alleged unmodified YP_009724390.1
-* AZD1222 alleged unmodified YP_009724390.1
+* AZD1222 unmodified MN908947
 * AZD2816 modified YP_009724390.1 with variants from B.1.351
 
 ## How we source and anlyze our data
