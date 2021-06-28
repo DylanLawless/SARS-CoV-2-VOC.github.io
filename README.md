@@ -2,6 +2,9 @@
 In the event of SARS-CoV-2 vaccine-resistant strain emergence, we would like to quickly determine which vaccines are affected.
 Differences in national vaccination coverage, vaccine efficacy, viral phylogenetics, and infection reporting means that a robust statistical analysis of vaccine-resistance will be unlikely to return actionable findings as quickly as needed.
 Understanding each vaccine design and having a detailed comparison of vaccine coding sequences is critical for pre-emptively assessing the risk. 
+
+Disturbingly, despite the expectation of scientific rigor, almost no genetic sequence data has been published from vaccine producers. 
+Some designers have provided a description of genetic modifications relative to a known reference genome - precluding protection of intellectual property as an explanation. 
 Here we compile data from vaccine designers and major health organisations to define the similarities and differences between each vaccine.
 We target the coding sequences for vaccines on the World Health Organization (WHO) Prequalification (PQ) Units’ Emergency Use Listing (EUL) and compare them against variants-of-concern in circulating SARS-CoV-2 strains. 
 
@@ -33,6 +36,7 @@ translated amino acid sequences of the vaccines;
 * Curevac CVnCoV
 * Sputnik V
 * AstraZeneca AZD1222
+* BBIBP-CorV Sinopharm [(no published data)](pages/vaccine_seq_recovered)
 
 and reference protein/genome sequences;
 
