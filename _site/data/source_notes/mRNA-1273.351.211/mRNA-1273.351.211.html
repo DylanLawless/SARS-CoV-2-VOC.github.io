@@ -23,19 +23,19 @@
 
 
 <!-- Begin Jekyll SEO tag v2.7.1 -->
-<title>Genetic sequences recovered | SARS-CoV-2 variants</title>
+<title>SARS-CoV-2 variants | Open-source tracking for emerging SARS-CoV-2 variants that pose a risk based on COVID-19 vaccine genetics.</title>
 <meta name="generator" content="Jekyll v3.9.0" />
-<meta property="og:title" content="Genetic sequences recovered" />
+<meta property="og:title" content="SARS-CoV-2 variants" />
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="Open-source tracking for emerging SARS-CoV-2 variants that pose a risk based on COVID-19 vaccine genetics." />
 <meta property="og:description" content="Open-source tracking for emerging SARS-CoV-2 variants that pose a risk based on COVID-19 vaccine genetics." />
-<link rel="canonical" href="http://localhost:4000/pages/vaccine_seq_recovered.html" />
-<meta property="og:url" content="http://localhost:4000/pages/vaccine_seq_recovered.html" />
+<link rel="canonical" href="http://localhost:4000/data/source_notes/mRNA-1273.351.211/mRNA-1273.351.211.html" />
+<meta property="og:url" content="http://localhost:4000/data/source_notes/mRNA-1273.351.211/mRNA-1273.351.211.html" />
 <meta property="og:site_name" content="SARS-CoV-2 variants" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Genetic sequences recovered" />
+<meta property="twitter:title" content="SARS-CoV-2 variants" />
 <script type="application/ld+json">
-{"description":"Open-source tracking for emerging SARS-CoV-2 variants that pose a risk based on COVID-19 vaccine genetics.","headline":"Genetic sequences recovered","url":"http://localhost:4000/pages/vaccine_seq_recovered.html","@type":"WebPage","@context":"https://schema.org"}</script>
+{"description":"Open-source tracking for emerging SARS-CoV-2 variants that pose a risk based on COVID-19 vaccine genetics.","headline":"SARS-CoV-2 variants","url":"http://localhost:4000/data/source_notes/mRNA-1273.351.211/mRNA-1273.351.211.html","@type":"WebPage","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -75,19 +75,72 @@
 <!-- </div> -->
 
     <main id="content" class="main-content" role="main">
-      <h2 id="genetic-sequences-recovered">Genetic sequences recovered</h2>
-<p>The vaccine sequences either recovered from litereature, derived based on the description of genetic modification compared to a published reference sequence, or those with no reference sequence or vaccine sequence found.</p>
+      
+<p>April 2021
+<a href="https://www.biorxiv.org/content/10.1101/2021.04.13.439482v1">https://www.biorxiv.org/content/10.1101/2021.04.13.439482v1</a></p>
+
+<blockquote>
+  <p>Here, we present the initial evaluation in mice of two updated COVID-19 mRNA vaccines designed to target emerging SARS-CoV-2 variants: 
+(1) monovalent mRNA-1273.351 encodes for the S protein found in the B.1.351 lineage and 
+(2) mRNA-1273.211 comprising a 1:1 mix of mRNA-1273 and mRNA-1273.351.</p>
+</blockquote>
+
+<blockquote>
+  <p>Like mRNA-1273, mRNA-1273.351 encodes the prefusion stabilized S protein of SARS-CoV-2; however, in contrast to mRNA-1273, mRNA-1273.351 incorporates key mutations present in the B.1.351 variant, including L18F, D80A, D215G, Δ242-244, R246I, K417N, E484K, N501Y, D614G, A701V (Figure 1).</p>
+</blockquote>
+
+<p>List of variants from table 1. B.1.351 (501Y .V2) that are used to modify mRNA-1273 to mRNA-1273.351.</p>
 
 <ul>
-  <li>Moderna mRNA-1273	- Yes.</li>
-  <li>Pfizer/BioNTech BNT-162b2 - Yes.</li>
-  <li>Janssen/Johnson &amp; Johnson Ad26.COV2-S - Derived.</li>
-  <li>Novavax NVX-CoV2373 - Derived.</li>
-  <li>Sputnik V - No, warning no sequence ref published.</li>
-  <li>AstraZeneca AZD1222 - No, warning no sequence ref published.</li>
-  <li>BBIBP-CorV Sinopharm - No, warning no sequence ref published.</li>
-  <li>Curevac CVnCoV -</li>
+  <li>L18F</li>
+  <li>D80A</li>
+  <li>D215G</li>
+  <li>242-244del</li>
+  <li>R246I</li>
+  <li>K417N</li>
+  <li>E484K</li>
+  <li>N501Y</li>
+  <li>D614G</li>
+  <li>A701V</li>
 </ul>
+
+<p>Note the nomenclature for 242-244del is the correct description instead of 241-243del (as used for some vaccine strain reporting)
+according to HGVS</p>
+<blockquote>
+  <p>“for all descriptions the most C-terminal position possible of the reference sequence is arbitrarily assigned to have been changed (3’ rule)”.</p>
+</blockquote>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">Seq</th>
+      <th style="text-align: center">Nomenclature</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">LLAL</td>
+      <td style="text-align: center">Ref p.241-244</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">L—</td>
+      <td style="text-align: center">p.242-244del</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">—L</td>
+      <td style="text-align: center">p.241-243del</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>The sequence was reproduced by modifying our fasta for 
+mRNA-1273_vaccine_translated with this B.1.351 as described by the authors.</p>
+
+<blockquote>
+  <p>mRNA-1273.351
+MFVFLVLLPLVSSQCVNFTTRTQLPPAYTNSFTRGVYYPDKVFRSSVLHSTQDLFLPFFSNVTWFHAIHVSGTNGTKRFANPVLPFNDGVYFASTEKSNIIRGWIFGTTLDSKTQSLLIVNNATNVVIKVCEFQFCNDPFLGVYYHKNNKSWMESEFRVYSSANNCTFEYVSQPFLMDLEGKQGNFKNLREFVFKNIDGYFKIYSKHTPINLVRGLPQGFSALEPLVDLPIGINITRFQTL—HISYLTPGDSSSGWTAGAAAYYVGYLQPRTFLLKYNENGTITDAVDCALDPLSETKCTLKSFTVEKGIYQTSNFRVQPTESIVRFPNITNLCPFGEVFNATRFASVYAWNRKRISNCVADYSVLYNSASFSTFKCYGVSPTKLNDLCFTNVYADSFVIRGDEVRQIAPGQTGNIADYNYKLPDDFTGCVIAWNSNNLDSKVGGNYNYLYRLFRKSNLKPFERDISTEIYQAGSTPCNGVKGFNCYFPLQSYGFQPTYGVGYQPYRVVVLSFELLHAPATVCGPKKSTNLVKNKCVNFNFNGLTGTGVLTESNKKFLPFQQFGRDIADTTDAVRDPQTLEILDITPCSFGGVSVITPGTNTSNQVAVLYQGVNCTEVPVAIHADQLTPTWRVYSTGSNVFQTRAGCLIGAEHVNNSYECDIPIGAGICASYQTQTNSPRRARSVASQSIIAYTMSLGVENSVAYSNNSIAIPTNFTISVTTEILPVSMTKTSVDCTMYICGDSTECSNLLLQYGSFCTQLNRALTGIAVEQDKNTQEVFAQVKQIYKTPPIKDFGGFNFSQILPDPSKPSKRSFIEDLLFNKVTLADAGFIKQYGDCLGDIAARDLICAQKFNGLTVLPPLLTDEMIAQYTSALLAGTITSGWTFGAGAALQIPFAMQMAYRFNGIGVTQNVLYENQKLIANQFNSAIGKIQDSLSSTASALGKLQDVVNQNAQALNTLVKQLSSNFGAISSVLNDILSRLDPPEAEVQIDRLITGRLQSLQTYVTQQLIRAAEIRASANLAATKMSECVLGQSKRVDFCGKGYHLMSFPQSAPHGVVFLHVTYVPAQEKNFTTAPAICHDGKAHFPREGVFVSNGTHWFVTQRNFYEPQIITTDNTFVSGNCDVVIGIVNNTVYDPLQPELDSFKEELDKYFKNHTSPDVDLGDISGINASVVNIQKEIDRLNEVAKNLNESLIDLQELGKYEQYIKWPWYIWLGFIAGLIAIVMVTIMLCCMTSCCSCLKGCCSCGSCCKFDEDDSEPVLKGVKLHYT</p>
+</blockquote>
+
 
 
 	<footer class="site-footer">
