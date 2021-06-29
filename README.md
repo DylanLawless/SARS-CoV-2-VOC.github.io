@@ -128,7 +128,7 @@ Location: [Switzerland, Canton Vaud](https://goo.gl/maps/Xv1bY6Tgn4a5ccwN9)
 
 Created in support of open-science by: [https://lawlessgenomics.com](https://lawlessgenomics.com)
 
-[Contact - Resume - CV](https://dylan-lawless.github.io)
+[Contact - Resume - CV](https://lawlessgenomics.com/resume/)
 
 Host-pathogen genomic scientist. PhD (Medicine in Genetics and Immunology), MSc (Immunology), BSc (Microbiology)
 
