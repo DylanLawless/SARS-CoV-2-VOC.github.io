@@ -39,7 +39,7 @@ translated amino acid sequences of the vaccines;
 * Sputnik V
 * AstraZeneca AZD1222
 * AstraZeneca AZD2816
-* BBIBP-CorV Sinopharm [(no published data)](pages/vaccine_seq_recovered)
+* BBIBP-CorV Sinopharm [(record incomplete)](pages/vaccine_seq_recovered)
 
 and reference protein/genome sequences;
 
