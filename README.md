@@ -88,7 +88,7 @@ Fasta sequences are included for:
 * NVX-CoV2373 vaccine translated
 * Sputnik V unmodified YP_009724390.1
 * AZD1222 unmodified MN908947
-* AZD2816 modified YP_009724390.1 with variants from B.1.351
+* AZD2816 modified MN908947 with variants from B.1.351
 
 ## How we source and anlyze our data
 

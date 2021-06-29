@@ -8,21 +8,20 @@ Vaccine producers have, in most cases, provided a description of their vaccine g
 Release of coding sequence data is therefore not a matter of intellectual property protection.
 It is concerning that all primary publications do not include the full coding sequence used.
 Providing instead, only a description of variants introduces a hurdle to interpretation and detracts from scientific credibility. 
-Some vaccine producers have never reported even the reference sequence, from which their unmodified sequence is derived. 
-Naturally, each vaccine has a different efficacy; a variable level of protection from infection and immunological response.
-Discussion of viral variant strains has become popular in the media. 
-Should a vaccine-resistant strain develop, the resistance will be defined by the vaccine coding sequence.
-We should not confound the facts about efficacy, variant strain, and vaccine genetic design.
+
 The scientific community has a responsibility not only to measure post-vaccination susceptibility to new viral strains, but to determine _why_ vaccine resistance may occur in reference to the vaccine coding sequence.
 Currently, all vaccine genetic sequences have been almost identical (the main differences being modifications to the stabilization and furin cleavage regions). 
-We want to be able to compare the genetic design of each vaccine; a requirement that should have been imposed during publication.
+We want to be able to easily compare the genetic design of each vaccine.
 We have taken the responsibility of providing this data publicly - 
 to answer our own call _"genetics on the table, please"._
 > "I am too familiar with the manner in which actual data are met with the suggestion that _other data, if they were collected, might show something else_ to believe it to have any value as an argument. "Statistics on the table, please," can be my sole reply. —Karl Pearson, 1910" Excerpt From: Stigler S.M. [Statistics on the table the history of statistical concepts and methods.](https://www.bookdepository.com/Statistics-on-the-Table/9780674009790)
 
 ## Confounding in the two steps to preparedness 
 
-Vaccine efficacy, vaccine genetic design, and variant strain are all related.
+Naturally, each vaccine has a different efficacy; a variable level of protection from infection and immunological response.
+Should a vaccine-resistant strain develop, the resistance will be defined by the vaccine coding sequence.
+Vaccine efficacy, vaccine genetic design, and variant strain are all related but we should not confound the facts.
+
 There are two major steps for preparedness.
 Step 2 has been largely ignored.
 
