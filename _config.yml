@@ -5,7 +5,7 @@ google_analytics: UA-199638391-1
 # gems:
 
 # This will only work when built on githubpages, I think. Not locally.
-url: "https://sarscov2variants.com" # the base hostname & protocol for your site
+url: https://sarscov2variants.com # the base hostname & protocol for your site
 plugins:
   - jekyll-sitemap
   - jemoji

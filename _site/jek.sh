@@ -1,11 +1,13 @@
 #!/bin/bash
 # Use the config_build for _config.yml
 # uses scholar plugin
-cp ./build/config_build.yml _config.yml
-sleep 1
+# cp ./build/config_build.yml _config.yml
+# sleep 1
 
 # to build sitemap with base url defined in _configyml instead of local host, run build, and then serve.
-bundle exec jekyll build &
+# bundle exec jekyll build &
+
+# to serve locally (this will produce the incorrect sitemap again)
 bundle exec jekyll serve &
 sleep 3
 
