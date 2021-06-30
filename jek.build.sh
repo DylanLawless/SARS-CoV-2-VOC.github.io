@@ -6,6 +6,7 @@
 
 # to build sitemap with base url defined in _configyml instead of local host, run build, and then serve.
 bundle exec jekyll build
+cp _site/sitemap.xml ./
 
 # to serve locally (this will produce the incorrect sitemap again)
 # bundle exec jekyll serve &
