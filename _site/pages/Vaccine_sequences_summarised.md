@@ -6,6 +6,14 @@
 	- Genetics: p.(Lys986_Val987delinsProPro)			- stabilizing x2 (PP)
 	- Delivery: Lipid-nanoparticle
 
+* mRNA-1273.351
+	- Genetics: p.(Lys986_Val987delinsProPro)			- stabilizing x2 (PP)
+	- Genetics: Variants from strain B.1.351; L18F, D80A, D215G, 242-244del, R246I, K417N, E484K, N501Y, D614G, A701V
+	- Delivery: Lipid-nanoparticle
+
+* mRNA-1273.211
+	- A 1:1 mix of mRNA-1273 and mRNA-1273.351
+
 * BNT162b2
 	- Genetics: p.(Lys986_Val987delinsProPro)			- stabilizing x2 (PP)
 	- Delivery: Lipid-nanoparticle
@@ -25,15 +33,18 @@
 	- Genetics: No reference sequence found
 	- Delivery: Adenovirus vectors (Ad26 dose 1) and (Ad5 dose 2)
 
-* Incomplete others:
-
 * CVnCoV
 	- Genetics: modified S protein.
 
 * AZD1222
-	- Genetics: Unmodified S protein
-	- Genetics: No reference sequence found
+	- Genetics: Unmodified S protein, ref MN908947
 	- Adenovirus vector (ChAdOx1).
+
+* AZD2816 modified MN908947 with variants from B.1.351
+	- Genetics: Modified S protein, ref MN908947.
+	- Genetics: Variants from strain B.1.351; 18F, D80A, D215G, 242-243del, K417N, E484K, N501Y, D614G, A701V.
+	- Adenovirus vector (ChAdOx1).
+	
 
 * CoronaVac
 	- a preparation of inactivated SARS-CoV-2 virions.

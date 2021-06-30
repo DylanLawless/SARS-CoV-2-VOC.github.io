@@ -4,9 +4,9 @@
 cp ./build/config_build.yml _config.yml
 sleep 1
 
-# bundle exec jekyll serve --incremental &
+# to build sitemap with base url defined in _configyml instead of local host, run build, and then serve.
+bundle exec jekyll build &
 bundle exec jekyll serve &
-# jekyll serve &
 sleep 3
 
 open -a Safari http://127.0.0.1:4000

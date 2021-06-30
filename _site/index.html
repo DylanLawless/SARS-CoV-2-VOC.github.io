@@ -35,7 +35,7 @@
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="SARS-CoV-2 variants" />
 <script type="application/ld+json">
-{"description":"Open-source tracking for emerging SARS-CoV-2 variants that pose a risk based on COVID-19 vaccine genetics.","headline":"SARS-CoV-2 variants","url":"http://localhost:4000/","@type":"WebSite","name":"SARS-CoV-2 variants","@context":"https://schema.org"}</script>
+{"description":"Open-source tracking for emerging SARS-CoV-2 variants that pose a risk based on COVID-19 vaccine genetics.","url":"http://localhost:4000/","headline":"SARS-CoV-2 variants","@type":"WebSite","name":"SARS-CoV-2 variants","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -43,7 +43,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="theme-color" content="#157878">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-<link rel="stylesheet" href="/assets/css/style.css?v=e06eaa9f64966f68d54bb2cee7ceb4f871ba822b">
+<link rel="stylesheet" href="/assets/css/style.css?v=d52534bda525523049eb579df8439ca8291ad18a">
 </head>
 
 <body>
@@ -125,7 +125,7 @@ translated amino acid sequences of the vaccines;</p>
   <li>Sputnik V</li>
   <li>AstraZeneca AZD1222</li>
   <li>AstraZeneca AZD2816</li>
-  <li>BBIBP-CorV Sinopharm <a href="pages/vaccine_seq_recovered">(no published data)</a></li>
+  <li>BBIBP-CorV Sinopharm <a href="pages/vaccine_seq_recovered">(record incomplete)</a></li>
 </ul>
 
 <p>and reference protein/genome sequences;</p>
@@ -182,9 +182,9 @@ illustrated here via</p>
   <li>BNT-162b2 vaccine translated</li>
   <li>Ad26.COV2-S vaccine translated</li>
   <li>NVX-CoV2373 vaccine translated</li>
-  <li>Sputnik V alleged unmodified YP_009724390.1</li>
+  <li>Sputnik V unmodified YP_009724390.1</li>
   <li>AZD1222 unmodified MN908947</li>
-  <li>AZD2816 modified YP_009724390.1 with variants from B.1.351</li>
+  <li>AZD2816 modified MN908947 with variants from B.1.351</li>
 </ul>
 
 <h2 id="how-we-source-and-anlyze-our-data">How we source and anlyze our data</h2>
@@ -211,6 +211,9 @@ illustrated here via</p>
 
 <p><a href="/pages/what_is_this.html">What is this?</a> - A summary of why it is important to generate this information and share it publicly. Why coding sequence design may be subverted by confounding terms in popular media.</p>
 
+<p>We are working on a live protein structure viewer. 
+<a href="https://www.ncbi.nlm.nih.gov/Structure/icn3d/full.html?from=icn3d&amp;blast_rep_id=6ZOX_A&amp;query_id=%3EmRNA-1273_vaccine_translated%0AMFVFLVLLPLVSSQCVNLTTRTQLPPAYTNSFTRGVYYPDKVFRSSVLHSTQDLFLPFFSNVTWFHAIHVSGTNGTKRFDNPVLPFNDGVYFASTEKSNIIRGWIFGTTLDSKTQSLLIVNNATNVVIKVCEFQFCNDPFLGVYYHKNNKSWMESEFRVYSSANNCTFEYVSQPFLMDLEGKQGNFKNLREFVFKNIDGYFKIYSKHTPINLVRDLPQGFSALEPLVDLPIGINITRFQTLLALHRSYLTPGDSSSGWTAGAAAYYVGYLQPRTFLLKYNENGTITDAVDCALDPLSETKCTLKSFTVEKGIYQTSNFRVQPTESIVRFPNITNLCPFGEVFNATRFASVYAWNRKRISNCVADYSVLYNSASFSTFKCYGVSPTKLNDLCFTNVYADSFVIRGDEVRQIAPGQTGKIADYNYKLPDDFTGCVIAWNSNNLDSKVGGNYNYLYRLFRKSNLKPFERDISTEIYQAGSTPCNGVEGFNCYFPLQSYGFQPTNGVGYQPYRVVVLSFELLHAPATVCGPKKSTNLVKNKCVNFNFNGLTGTGVLTESNKKFLPFQQFGRDIADTTDAVRDPQTLEILDITPCSFGGVSVITPGTNTSNQVAVLYQDVNCTEVPVAIHADQLTPTWRVYSTGSNVFQTRAGCLIGAEHVNNSYECDIPIGAGICASYQTQTNSPRRARSVASQSIIAYTMSLGAENSVAYSNNSIAIPTNFTISVTTEILPVSMTKTSVDCTMYICGDSTECSNLLLQYGSFCTQLNRALTGIAVEQDKNTQEVFAQVKQIYKTPPIKDFGGFNFSQILPDPSKPSKRSFIEDLLFNKVTLADAGFIKQYGDCLGDIAARDLICAQKFNGLTVLPPLLTDEMIAQYTSALLAGTITSGWTFGAGAALQIPFAMQMAYRFNGIGVTQNVLYENQKLIANQFNSAIGKIQDSLSSTASALGKLQDVVNQNAQALNTLVKQLSSNFGAISSVLNDILSRLDPPEAEVQIDRLITGRLQSLQTYVTQQLIRAAEIRASANLAATKMSECVLGQSKRVDFCGKGYHLMSFPQSAPHGVVFLHVTYVPAQEKNFTTAPAICHDGKAHFPREGVFVSNGTHWFVTQRNFYEPQIITTDNTFVSGNCDVVIGIVNNTVYDPLQPELDSFKEELDKYFKNHTSPDVDLGDISGINASVVNIQKEIDRLNEVAKNLNESLIDLQELGKYEQYIKWPWYIWLGFIAGLIAIVMVTIMLCCMTSCCSCLKGCCSCGSCCKFDEDDSEPVLKGVKLHYT&amp;date=20210629&amp;v=3.2.3&amp;command=view annotations; set annotation cdd; set annotation site; set view detailed view; select chain !A; show selection; set annotation cdd; show all; style nucleotides nothing; style chemicals nothing; glycans cartoon no; style ions nothing; color chain; color conservation; zoom selection; set fog on; set mode all; hide annotation site; hide annotation cdd; set annotation snp; hide annotation snp; set annotation snp; hide annotation snp; set annotation custom; show all; set fog off; select .A:641 or .A:676 or .A:689 or .A:980-981 or .A:984-989 | name seq_1; style sidec nothing|||{&quot;factor&quot;:&quot;2.012&quot;,&quot;mouseChange&quot;:{&quot;x&quot;:&quot;0.000&quot;,&quot;y&quot;:&quot;0.000&quot;},&quot;quaternion&quot;:{&quot;_x&quot;:&quot;-0.6765&quot;,&quot;_y&quot;:&quot;-0.3159&quot;,&quot;_z&quot;:&quot;0.3118&quot;,&quot;_w&quot;:&quot;0.5876&quot;}}">You can view one preliminary alignment of mRNA-1273 with spike glycoprotein here at NCBI/icn3d</a></p>
+
 <!-- ![](https://static01.nyt.com/newsgraphics/2020/04/02/virus-genome/assets/images/ribosome-600.png) -->
 <div style="text-align:center"><img src="https://static01.nyt.com/newsgraphics/2020/04/02/virus-genome/assets/images/ribosome-600.png" /></div>
 
@@ -222,7 +225,7 @@ illustrated here via</p>
 
 <p>Created in support of open-science by: <a href="https://lawlessgenomics.com">https://lawlessgenomics.com</a></p>
 
-<p><a href="https://dylan-lawless.github.io">Contact - Resume - CV</a></p>
+<p><a href="https://lawlessgenomics.com/resume/">Contact - Resume - CV</a></p>
 
 <p>Host-pathogen genomic scientist. PhD (Medicine in Genetics and Immunology), MSc (Immunology), BSc (Microbiology)</p>
 
