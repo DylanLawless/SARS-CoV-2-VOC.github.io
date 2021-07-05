@@ -1,4 +1,4 @@
-If our live vaccine sequence alignment viewer has problems loading in your browser, [you can try here via NCBI.](https://www.ncbi.nlm.nih.gov/projects/msaviewer/?anchor=-1&coloring=fbd&key=qhkwwLYbacLFNSfF5iQRO0GVWVAGIQgkBCIsNDgwKh67Eg5CyHhYWzczAoYJoxPeQsYf0gH2WvMd6QnkD-ID-THQDN4g4go,jT4X55E8TuXiEgDiwQM2HGayfnYhBy8CIwQLEh8WDTicNClk714CS8TL8QFrLrlT6Eu1X6t78H63ZKNppW-pdJtdplOKb6A&track_config=protein_default&from=207&to=278&columns=d:120,b:55,x:17,aln,e:55,o:150)
+Click to open our live vaccine sequence alignment viewer at NCBI on your desktop browser. [![](./images/ncbi_msa.png)](https://www.ncbi.nlm.nih.gov/projects/msaviewer/?anchor=-1&coloring=fbd&key=qhkwwLYbacLFNSfF5iQRO0GVWVAGIQgkBCIsNDgwKh67Eg5CyHhYWzczAoYJoxPeQsYf0gH2WvMd6QnkD-ID-THQDN4g4go,jT4X55E8TuXiEgDiwQM2HGayfnYhBy8CIwQLEh8WDTicNClk714CS8TL8QFrLrlT6Eu1X6t78H63ZKNppW-pdJtdplOKb6A&track_config=protein_default&from=207&to=278&columns=d:120,b:55,x:17,aln,e:55,o:150)
 
 # Variants of concern aligned to SARS-CoV-2 vaccine coding sequences
 In the event of SARS-CoV-2 vaccine-resistant strain emergence, we would like to quickly determine which vaccines are affected.
