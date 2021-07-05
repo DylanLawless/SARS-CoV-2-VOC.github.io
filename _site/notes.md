@@ -1,4 +1,25 @@
 # Notes
+## Combining vaccines
+
+Pre-liminary data on [Comparing Heterologous And Homologous Prime-Boost Schedules with An Adenoviral Vectored and mRNA COVID-19 Vaccine](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3874014), suggests that a combination of vaccines could have increased benefit.
+I would be surprised if this didn't turn out to be an anecdotal, false positive. 
+However, if it were true, it would be very interesting to dig into the mechanism to understand if the cause is due to differences in epitope recognition or due to a response based on the delivery method. 
+The main differences in vaccine genetic coding sequence and delivery are:
+
+* BNT162b2 (Pfizer/BioNTech)
+	- Genetics: p.(Lys986_Val987delinsProPro) - stabilizing x2 (PP)
+	- Delivery: Lipid-nanoparticle
+
+* AZD1222 (AstraZeneca)
+	- Genetics: Unmodified S protein, ref MN908947
+	- Delivery: Adenovirus vector (ChAdOx1).
+
+Basically, several combinations of difference vaccines would also give you the same key features. 
+So if true (which I don't buy at the moment), we could use other vaccine combinations to produce this effect.
+If this paper, and other like it produce more evidence we will do a review.
+
+
+
 ## Website deployment
 The site redeployed under lawlessgenomics.com as a project using a second custom domain name. 
 The site is built using the git repo
