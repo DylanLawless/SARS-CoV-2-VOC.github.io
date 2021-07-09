@@ -19,7 +19,6 @@ So if true (which I don't buy at the moment), we could use other vaccine combina
 If this paper, and other like it produce more evidence we will do a review.
 
 
-
 ## Website deployment
 The site redeployed under lawlessgenomics.com as a project using a second custom domain name. 
 The site is built using the git repo
@@ -38,6 +37,20 @@ Think of it as follows:
 This is an important point that is not easy to find anywhere online and only a criptic expanation by github. 
 This blogpost exaplains it perfectly
 <https://deanattali.com/blog/multiple-github-pages-domains/>
+
+
+## Soberana 
+<https://mediccreview.org/soberana-cuba-covid-19-vaccine-candidates/>
+>MEDICC Review: Can you explain how the Cuban COVID-19 subunit vaccine candidate works and if it has inherent advantages?
+
+> Dagmar García: For this type of vaccine to be effective, its crucial to know which part of the virus subunit, which antigen, is most significant. This took us more time to figure out. But once it became clear that the most relevant antigen is the receptor-binding domain (RBD) of the viral Spike (S) glycoprotein—the protein that allows SARS-CoV-2 to invade human cells through the angiotensin-converting enzyme 2 or ACE2 receptor—this is where we focused our research. Using established genetic engineering methods and biotechnology processes, our colleagues at CIM successfully produced the RBD protein in mammalian cells. This gave us a well-defined and stable molecular structure with which to continue research.
+
+> Our first candidate, SOBERANA 01, is a two-dose vaccine based on an RBD amino-acid sequence that by design allows natural dimerization of two RBD molecules. This is combined with outer membrane vesicles of meningococcus B that act as an immunopotentiator. In short, the goal is to induce production of neutralizing antibodies against SARS-CoV-2.
+
+> There are several advantages to this approach. First, it uses an established technological platform proven over more than 30 years’ experience—the platform used for our VA-MENGOC-BC vaccine. This translates into faster development and implies safety advantages for vaccine candidates. Second, we believe that a vaccine based on the RBD protein has high probabilities of success because immunological studies in patients recovering from COVID-19 show it’s the most relevant viral component for inducing neutralizing antibodies.
+
+> Importantly, our biotechnology industry uses a model in which the scientific and technological capacities of each institution are coordinated, complementing one another. For example, for over 20 years, CIM has worked in large-scale production of complex recombinant proteins in mammalian cells and has mastered the necessary immunological techniques used in earlier development of their therapeutic cancer vaccines. The University of Havana’s Chemical and Biomolecular Synthesis Laboratory, meanwhile, contributes molecular-level research. We work as a consortium, an alliance that has allowed us to make rapid progress towards a vaccine; none of our institutions could have developed a vaccine candidate this fast alone.
+
 
 ## Other useful blogs and reports
 * Derek Lowe's article on lipid delivery systems:
