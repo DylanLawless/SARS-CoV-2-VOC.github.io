@@ -1,0 +1,22 @@
+
+
+Functional domains as per Fig S1 and Fig1.
+https://science.sciencemag.org/content/sci/suppl/2020/02/18/science.abb2507.DC1/abb2507-Wrapp-SM.pdf
+
+Domain	Position	size
+total	1-1273	1273
+NTD	16-305	289
+RBD	330-421	91
+S1/S2	662-685	3
+S2' 	815	1
+FP	816-833	17
+HR1	908-985	77
+CH	986-1035	49
+CD	1076-1141	65
+
+Furin
+Stabilization
+
+Variants of concern positions
+13 18 20 26 69 70 80 138 144 152 190 215 241 242 243 417 417 452 484 494 501 501 570 614 655 681 701 716 982 1027 1118 1191
+

@@ -57,7 +57,11 @@ provided by Xiong et al., 2020 [10.1038/s41594-020-0478-5](https://www.nature.co
 
 <div style="text-align:center"><img src="./pdb/renders/6zox_voc_20210604_stage.gif" width="80%"/></div>
 
-Two of the defining genetic features that are different between vaccines are seen here, 
+The protein domains are shown here.
+
+<div style="text-align:center"><img src="./data/sarscov2_protein_domain/sarscov2_protein_domain.png" width="100%"/></div>
+
+Two of the defining genetic features that are different between vaccines are also shown; 
 * the S glycoprotein furin cleavage modification region (p.682-685)
 
 ![](./images/snapshot_furin_cleavage_region.png)
