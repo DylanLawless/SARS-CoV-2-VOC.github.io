@@ -34,7 +34,8 @@
 	- Delivery: Adenovirus vectors (Ad26 dose 1) and (Ad5 dose 2)
 
 * CVnCoV
-	- Genetics: modified S protein.
+	- Genetics: p.(Lys986_Val987delinsProPro)			- stabilizing x2 (PP)
+	- Delivery: Lipid nanoparticle-encapsulated mRNA 
 
 * AZD1222
 	- Genetics: Unmodified S protein, ref MN908947
