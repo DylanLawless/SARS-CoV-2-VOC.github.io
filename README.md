@@ -112,7 +112,7 @@ Fasta sequences are included for:
 
 [Variants-of-concern aligned to vaccine](pages/Variants-of-concern_aligned_to_vaccine.md) - Details about the combination of variants-of-concern and vaccine coding sequences. Produces a visual map of SARS-CoV-2 variants against each vaccine coding sequence, which is responsible for S protein expression. Emergence of viral strains containing new S protein variants may produce epitopes that fail to initiate sufficient vaccine-stimulated immune recognition.
 
-[Main file for download](pages/Main_files.md) - The main files that might be useful to researchers, containing raw and processed data, are listed here together. Other files that are not listed but are present in the data folder will contain intermediate data.
+[Main files for download](pages/Main_files.md) - The main files that might be useful to researchers, containing raw and processed data, are listed here together. Other files that are not listed but are present in the data folder will contain intermediate data.
 
 [Other notes](notes.md) - Other notes with snippets and temporary, related material. 
 
